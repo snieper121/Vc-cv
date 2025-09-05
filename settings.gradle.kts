@@ -9,10 +9,6 @@ pluginManagement {
   }
 }
 
-//plugins {
-//  id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
-//}
-
 dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
   repositories {
@@ -24,6 +20,10 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "VCSpace"
+rootProject.name = "SimpleCodeEditor"
 
-include(":app", ":core:common", ":core:resources", ":feature:editor", ":feature:preferences", ":feature:monaco-editor", ":feature:plugins")
+include(":app")
+include(":feature:editor")
+include(":feature:filemanager")
+include(":core:common")
+include(":core:resources")
