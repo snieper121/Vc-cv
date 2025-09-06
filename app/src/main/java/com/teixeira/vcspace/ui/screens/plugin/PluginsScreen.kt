@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin
+package com.simple.codeeditor.ui.screens.plugin
 
 import android.webkit.MimeTypeMap
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -43,20 +43,20 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.blankj.utilcode.util.UriUtils
-import com.teixeira.vcspace.PluginConstants
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.extensions.toFile
-import com.teixeira.vcspace.plugins.PluginLoader
-import com.teixeira.vcspace.plugins.internal.PluginInfo
-import com.teixeira.vcspace.ui.LocalToastHostState
-import com.teixeira.vcspace.ui.screens.PluginScreens
-import com.teixeira.vcspace.ui.screens.plugin.components.InstalledPluginList
-import com.teixeira.vcspace.ui.screens.plugin.components.NewPluginButton
-import com.teixeira.vcspace.ui.screens.plugin.components.NewPluginSheet
-import com.teixeira.vcspace.ui.screens.plugin.components.PluginTabs
-import com.teixeira.vcspace.ui.screens.plugin.components.PluginTopBar
-import com.teixeira.vcspace.utils.GradleJavaLibraryProjectCreator
-import com.teixeira.vcspace.utils.launchWithProgressDialog
+import com.simple.codeeditor.PluginConstants
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.extensions.toFile
+import com.simple.codeeditor.plugins.PluginLoader
+import com.simple.codeeditor.plugins.internal.PluginInfo
+import com.simple.codeeditor.ui.LocalToastHostState
+import com.simple.codeeditor.ui.screens.PluginScreens
+import com.simple.codeeditor.ui.screens.plugin.components.InstalledPluginList
+import com.simple.codeeditor.ui.screens.plugin.components.NewPluginButton
+import com.simple.codeeditor.ui.screens.plugin.components.NewPluginSheet
+import com.simple.codeeditor.ui.screens.plugin.components.PluginTabs
+import com.simple.codeeditor.ui.screens.plugin.components.PluginTopBar
+import com.simple.codeeditor.utils.GradleJavaLibraryProjectCreator
+import com.simple.codeeditor.utils.launchWithProgressDialog
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

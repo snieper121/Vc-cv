@@ -13,13 +13,13 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens
+package com.simple.codeeditor.ui.screens
 
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.resources.R
 
 sealed class PluginScreens(
     val route: String,

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core.components.editor
+package com.simple.codeeditor.core.components.editor
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.padding

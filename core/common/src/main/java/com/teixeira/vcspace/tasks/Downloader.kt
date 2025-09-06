@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.tasks
+package com.simple.codeeditor.tasks
 
 import android.util.Log
 import kotlinx.coroutines.Dispatchers

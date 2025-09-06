@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core
+package com.simple.codeeditor.core
 
 import androidx.compose.runtime.mutableStateMapOf
 import com.vcspace.plugins.panel.ComposeFactory

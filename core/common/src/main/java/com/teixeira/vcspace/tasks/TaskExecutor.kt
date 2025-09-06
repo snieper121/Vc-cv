@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.tasks
+package com.simple.codeeditor.tasks
 
 import com.blankj.utilcode.util.ThreadUtils
-import com.teixeira.vcspace.utils.Logger
+import com.simple.codeeditor.utils.Logger
 import java.util.concurrent.Callable
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.CompletionException

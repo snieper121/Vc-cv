@@ -1,10 +1,10 @@
-package com.teixeira.vcspace.preferences
+package com.simple.codeeditor.preferences
 
 import android.content.Context
 import android.util.AttributeSet
-import com.teixeira.vcspace.preferences.base.SingleChoiceDialogPreference
-import com.teixeira.vcspace.preferences.base.SliderDialogPreference
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.preferences.base.SingleChoiceDialogPreference
+import com.simple.codeeditor.preferences.base.SliderDialogPreference
+import com.simple.codeeditor.resources.R
 
 class EditorFontSizePreference : SliderDialogPreference {
 

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core.components.common
+package com.simple.codeeditor.core.components.common
 
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton

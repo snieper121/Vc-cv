@@ -13,13 +13,13 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.utils
+package com.simple.codeeditor.utils
 
 import android.content.Context
 import androidx.annotation.UiContext
 import androidx.appcompat.app.AlertDialog
 import com.blankj.utilcode.util.ThreadUtils.runOnUiThread
-import com.teixeira.vcspace.dialogs.ProgressDialogBuilder
+import com.simple.codeeditor.dialogs.ProgressDialogBuilder
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job

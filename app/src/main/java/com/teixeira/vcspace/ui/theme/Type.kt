@@ -1,4 +1,4 @@
-package com.teixeira.vcspace.ui.theme
+package com.simple.codeeditor.ui.theme
 
 import androidx.compose.material3.Typography
 

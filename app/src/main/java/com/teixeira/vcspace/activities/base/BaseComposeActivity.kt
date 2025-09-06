@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.activities.base
+package com.simple.codeeditor.activities.base
 
 import android.Manifest
 import android.content.Intent
@@ -67,16 +67,16 @@ import com.blankj.utilcode.util.AppUtils
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.MultiplePermissionsState
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.compose.LocalDarkMode
-import com.teixeira.vcspace.core.components.common.VCSpaceLargeTopBar
-import com.teixeira.vcspace.core.settings.Settings.General.rememberFollowSystemTheme
-import com.teixeira.vcspace.core.settings.Settings.General.rememberIsDarkMode
-import com.teixeira.vcspace.ui.LocalToastHostState
-import com.teixeira.vcspace.ui.ToastHost
-import com.teixeira.vcspace.ui.rememberToastHostState
-import com.teixeira.vcspace.ui.theme.VCSpaceTheme
-import com.teixeira.vcspace.utils.isStoragePermissionGranted
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.compose.LocalDarkMode
+import com.simple.codeeditor.core.components.common.VCSpaceLargeTopBar
+import com.simple.codeeditor.core.settings.Settings.General.rememberFollowSystemTheme
+import com.simple.codeeditor.core.settings.Settings.General.rememberIsDarkMode
+import com.simple.codeeditor.ui.LocalToastHostState
+import com.simple.codeeditor.ui.ToastHost
+import com.simple.codeeditor.ui.rememberToastHostState
+import com.simple.codeeditor.ui.theme.VCSpaceTheme
+import com.simple.codeeditor.utils.isStoragePermissionGranted
 import kiwi.orbit.compose.ui.controls.Scaffold
 
 abstract class BaseComposeActivity : AppCompatActivity() {

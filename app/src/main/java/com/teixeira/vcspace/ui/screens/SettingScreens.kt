@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens
+package com.simple.codeeditor.ui.screens
 
 import kotlinx.serialization.Serializable
 

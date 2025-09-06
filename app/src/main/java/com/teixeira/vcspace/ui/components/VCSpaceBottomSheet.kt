@@ -13,14 +13,14 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.components
+package com.simple.codeeditor.ui.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.teixeira.vcspace.ui.theme.VCSpaceTheme
+import com.simple.codeeditor.ui.theme.VCSpaceTheme
 
 @Composable
 fun VCSpaceBottomSheet(

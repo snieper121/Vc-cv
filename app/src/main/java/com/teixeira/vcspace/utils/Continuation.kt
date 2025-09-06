@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.utils
+package com.simple.codeeditor.utils
 
 abstract class Continuation<in T> : kotlin.coroutines.Continuation<T> {
     abstract fun resume(value: T)

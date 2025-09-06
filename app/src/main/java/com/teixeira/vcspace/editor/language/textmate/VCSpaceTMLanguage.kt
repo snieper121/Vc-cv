@@ -12,7 +12,7 @@
  * You should have received a copy of the GNU General Public License along with Visual Code Space.
  * If not, see <https://www.gnu.org/licenses/>.
  */
-package com.teixeira.vcspace.editor.language.textmate
+package com.simple.codeeditor.editor.language.textmate
 
 import android.os.Bundle
 import androidx.annotation.WorkerThread

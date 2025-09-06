@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.ai
+package com.simple.codeeditor.ui.screens.editor.ai
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -23,7 +23,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.google.ai.client.generativeai.type.GenerateContentResponse
-import com.teixeira.vcspace.app.strings
+import com.simple.codeeditor.app.strings
 import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @Composable

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.extensions
+package com.simple.codeeditor.extensions
 
 fun doIf(condition: Boolean, action: () -> Unit) {
     if (condition) action()

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.settings
+package com.simple.codeeditor.ui.screens.settings
 
 import android.os.Build
 import androidx.activity.compose.BackHandler
@@ -40,17 +40,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.core.settings.Settings.General.AMOLED_MODE
-import com.teixeira.vcspace.core.settings.Settings.General.DARK_MODE
-import com.teixeira.vcspace.core.settings.Settings.General.DYNAMIC_COLOR
-import com.teixeira.vcspace.core.settings.Settings.General.ENABLE_GESTURE_IN_DRAWER
-import com.teixeira.vcspace.core.settings.Settings.General.FOLLOW_SYSTEM_THEME
-import com.teixeira.vcspace.core.settings.Settings.General.rememberEnableGestureInDrawer
-import com.teixeira.vcspace.core.settings.Settings.General.rememberFollowSystemTheme
-import com.teixeira.vcspace.core.settings.Settings.General.rememberIsAmoledMode
-import com.teixeira.vcspace.core.settings.Settings.General.rememberIsDarkMode
-import com.teixeira.vcspace.core.settings.Settings.General.rememberIsDynamicColor
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.core.settings.Settings.General.AMOLED_MODE
+import com.simple.codeeditor.core.settings.Settings.General.DARK_MODE
+import com.simple.codeeditor.core.settings.Settings.General.DYNAMIC_COLOR
+import com.simple.codeeditor.core.settings.Settings.General.ENABLE_GESTURE_IN_DRAWER
+import com.simple.codeeditor.core.settings.Settings.General.FOLLOW_SYSTEM_THEME
+import com.simple.codeeditor.core.settings.Settings.General.rememberEnableGestureInDrawer
+import com.simple.codeeditor.core.settings.Settings.General.rememberFollowSystemTheme
+import com.simple.codeeditor.core.settings.Settings.General.rememberIsAmoledMode
+import com.simple.codeeditor.core.settings.Settings.General.rememberIsDarkMode
+import com.simple.codeeditor.core.settings.Settings.General.rememberIsDynamicColor
+import com.simple.codeeditor.resources.R
 import me.zhanghai.compose.preference.preferenceCategory
 import me.zhanghai.compose.preference.switchPreference
 

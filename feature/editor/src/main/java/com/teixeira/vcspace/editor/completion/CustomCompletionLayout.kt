@@ -13,11 +13,11 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.completion
+package com.simple.codeeditor.editor.completion
 
 import android.graphics.drawable.GradientDrawable
 import android.view.ViewGroup
-import com.teixeira.vcspace.utils.getAttrColor
+import com.simple.codeeditor.utils.getAttrColor
 import io.github.rosemoe.sora.widget.component.DefaultCompletionLayout
 import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 

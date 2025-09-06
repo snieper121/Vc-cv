@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose.ui.filetree
+package com.simple.codeeditor.compose.ui.filetree
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.AnimatedVisibility
@@ -56,9 +56,9 @@ import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.compose.LocalDarkMode
-import com.teixeira.vcspace.compose.ui.graphics.rememberSvgAssetImageBitmap
-import com.teixeira.vcspace.core.FileIcons
+import com.simple.codeeditor.compose.LocalDarkMode
+import com.simple.codeeditor.compose.ui.graphics.rememberSvgAssetImageBitmap
+import com.simple.codeeditor.core.FileIcons
 
 @SuppressLint("MaterialDesignInsteadOrbitDesign")
 @Composable

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.textaction
+package com.simple.codeeditor.editor.textaction
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.Comment
@@ -26,7 +26,7 @@ import androidx.compose.material.icons.rounded.EditNote
 import androidx.compose.material.icons.rounded.SelectAll
 import androidx.compose.material.icons.rounded.TouchApp
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.resources.R
 
 data class EditorTextActionItem(
     val id: Int,

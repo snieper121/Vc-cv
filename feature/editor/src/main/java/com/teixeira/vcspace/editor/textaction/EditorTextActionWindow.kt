@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.textaction
+package com.simple.codeeditor.editor.textaction
 
 import android.view.ViewGroup
 import android.widget.FrameLayout
@@ -69,7 +69,7 @@ import androidx.lifecycle.findViewTreeLifecycleOwner
 import androidx.lifecycle.setViewTreeLifecycleOwner
 import androidx.savedstate.findViewTreeSavedStateRegistryOwner
 import androidx.savedstate.setViewTreeSavedStateRegistryOwner
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.resources.R
 import kotlin.math.abs
 
 @Composable

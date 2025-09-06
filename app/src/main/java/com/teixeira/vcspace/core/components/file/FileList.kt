@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core.components.file
+package com.simple.codeeditor.core.components.file
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -67,10 +67,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.offset
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.providers.FileIconProvider
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.screens.editor.EditorViewModel
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.providers.FileIconProvider
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.screens.editor.EditorViewModel
 import java.text.SimpleDateFormat
 import kotlin.math.max
 

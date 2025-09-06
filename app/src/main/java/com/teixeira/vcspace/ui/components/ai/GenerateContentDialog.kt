@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.components.ai
+package com.simple.codeeditor.ui.components.ai
 
 import android.view.View
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -33,10 +33,10 @@ import androidx.compose.ui.res.stringResource
 import com.blankj.utilcode.util.ToastUtils
 import com.google.ai.client.generativeai.type.asTextOrNull
 import com.itsvks.monaco.MonacoEditor
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.core.ai.Gemini
-import com.teixeira.vcspace.ui.screens.editor.components.view.CodeEditorView
-import com.teixeira.vcspace.utils.launchWithProgressDialog
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.core.ai.Gemini
+import com.simple.codeeditor.ui.screens.editor.components.view.CodeEditorView
+import com.simple.codeeditor.utils.launchWithProgressDialog
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

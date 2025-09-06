@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components
+package com.simple.codeeditor.ui.screens.editor.components
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Text
@@ -22,12 +22,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import com.teixeira.vcspace.core.EventManager
-import com.teixeira.vcspace.events.OnDeleteFileEvent
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.utils.launchWithProgressDialog
-import com.teixeira.vcspace.utils.showShortToast
+import com.simple.codeeditor.core.EventManager
+import com.simple.codeeditor.events.OnDeleteFileEvent
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.utils.launchWithProgressDialog
+import com.simple.codeeditor.utils.showShortToast
 import com.vcspace.plugins.event.FileDeleteEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

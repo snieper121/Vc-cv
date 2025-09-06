@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.language.java
+package com.simple.codeeditor.editor.language.java
 
 enum class Tokens {
     WHITESPACE,

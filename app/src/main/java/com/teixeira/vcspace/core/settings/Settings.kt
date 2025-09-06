@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core.settings
+package com.simple.codeeditor.core.settings
 
 import android.content.Context
 import androidx.compose.runtime.Composable

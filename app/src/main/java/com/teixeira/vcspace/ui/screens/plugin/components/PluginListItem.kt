@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin.components
+package com.simple.codeeditor.ui.screens.plugin.components
 
 import android.graphics.BitmapFactory
 import androidx.compose.animation.AnimatedVisibility
@@ -59,9 +59,9 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.PluginConstants
-import com.teixeira.vcspace.extensions.toFile
-import com.teixeira.vcspace.plugins.internal.PluginInfo
+import com.simple.codeeditor.PluginConstants
+import com.simple.codeeditor.extensions.toFile
+import com.simple.codeeditor.plugins.internal.PluginInfo
 
 @Composable
 fun PluginListItem(

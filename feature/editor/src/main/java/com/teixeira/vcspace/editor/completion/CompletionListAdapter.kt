@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.completion
+package com.simple.codeeditor.editor.completion
 
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -21,7 +21,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.updatePadding
 import com.blankj.utilcode.util.SizeUtils
-import com.teixeira.vcspace.editor.databinding.LayoutCompletionItemBinding
+import com.simple.codeeditor.editor.databinding.LayoutCompletionItemBinding
 import io.github.rosemoe.sora.lang.completion.SimpleCompletionItem
 import io.github.rosemoe.sora.widget.component.EditorCompletionAdapter
 

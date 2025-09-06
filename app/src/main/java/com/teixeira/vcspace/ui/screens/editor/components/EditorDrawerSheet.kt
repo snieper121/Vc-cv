@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components
+package com.simple.codeeditor.ui.screens.editor.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -47,29 +47,29 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.blankj.utilcode.util.ClipboardUtils
-import com.teixeira.vcspace.activities.Editor.LocalEditorDrawerNavController
-import com.teixeira.vcspace.activities.Editor.LocalEditorDrawerState
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.compose.ui.filetree.FileTreeView
-import com.teixeira.vcspace.core.components.editor.FileOptionItem
-import com.teixeira.vcspace.core.components.editor.FileOptionsSheet
-import com.teixeira.vcspace.core.components.editor.NavigationSpace
-import com.teixeira.vcspace.core.components.editor.NavigationSpaceItem
-import com.teixeira.vcspace.core.components.editor.rememberNavigationSpaceState
-import com.teixeira.vcspace.events.OnCreateFileEvent
-import com.teixeira.vcspace.events.OnCreateFolderEvent
-import com.teixeira.vcspace.events.OnRefreshFolderEvent
-import com.teixeira.vcspace.extensions.openFile
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.git.GitViewModel
-import com.teixeira.vcspace.resources.R.string
-import com.teixeira.vcspace.ui.screens.EditorDrawerScreens
-import com.teixeira.vcspace.ui.screens.editor.EditorViewModel
-import com.teixeira.vcspace.ui.screens.editor.components.drawer.Heading
-import com.teixeira.vcspace.ui.screens.editor.components.drawer.NavRail
-import com.teixeira.vcspace.ui.screens.editor.components.drawer.OpenFolderActions
-import com.teixeira.vcspace.ui.screens.file.FileExplorerViewModel
-import com.teixeira.vcspace.utils.ApkInstaller
+import com.simple.codeeditor.activities.Editor.LocalEditorDrawerNavController
+import com.simple.codeeditor.activities.Editor.LocalEditorDrawerState
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.compose.ui.filetree.FileTreeView
+import com.simple.codeeditor.core.components.editor.FileOptionItem
+import com.simple.codeeditor.core.components.editor.FileOptionsSheet
+import com.simple.codeeditor.core.components.editor.NavigationSpace
+import com.simple.codeeditor.core.components.editor.NavigationSpaceItem
+import com.simple.codeeditor.core.components.editor.rememberNavigationSpaceState
+import com.simple.codeeditor.events.OnCreateFileEvent
+import com.simple.codeeditor.events.OnCreateFolderEvent
+import com.simple.codeeditor.events.OnRefreshFolderEvent
+import com.simple.codeeditor.extensions.openFile
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.git.GitViewModel
+import com.simple.codeeditor.resources.R.string
+import com.simple.codeeditor.ui.screens.EditorDrawerScreens
+import com.simple.codeeditor.ui.screens.editor.EditorViewModel
+import com.simple.codeeditor.ui.screens.editor.components.drawer.Heading
+import com.simple.codeeditor.ui.screens.editor.components.drawer.NavRail
+import com.simple.codeeditor.ui.screens.editor.components.drawer.OpenFolderActions
+import com.simple.codeeditor.ui.screens.file.FileExplorerViewModel
+import com.simple.codeeditor.utils.ApkInstaller
 import kiwi.orbit.compose.ui.controls.Text
 import kotlinx.coroutines.launch
 import org.greenrobot.eventbus.EventBus

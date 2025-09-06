@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin.components
+package com.simple.codeeditor.ui.screens.plugin.components
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -55,14 +55,14 @@ import androidx.compose.ui.unit.dp
 import androidx.documentfile.provider.DocumentFile
 import com.blankj.utilcode.util.FileUtils
 import com.blankj.utilcode.util.UriUtils
-import com.teixeira.vcspace.APP_EXTERNAL_DIR
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.extensions.toFile
-import com.teixeira.vcspace.file.DocumentFileWrapper
-import com.teixeira.vcspace.file.wrapFile
-import com.teixeira.vcspace.plugins.internal.PluginInfo
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.rememberSheetState
+import com.simple.codeeditor.APP_EXTERNAL_DIR
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.extensions.toFile
+import com.simple.codeeditor.file.DocumentFileWrapper
+import com.simple.codeeditor.file.wrapFile
+import com.simple.codeeditor.plugins.internal.PluginInfo
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.rememberSheetState
 import java.io.File
 
 @OptIn(ExperimentalMaterial3Api::class)

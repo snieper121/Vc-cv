@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.providers
+package com.simple.codeeditor.providers
 
 import android.content.Context
 import com.google.gson.Gson

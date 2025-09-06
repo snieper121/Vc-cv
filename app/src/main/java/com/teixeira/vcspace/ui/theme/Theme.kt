@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.theme
+package com.simple.codeeditor.ui.theme
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -33,10 +33,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import com.teixeira.vcspace.core.settings.Settings.General.rememberFollowSystemTheme
-import com.teixeira.vcspace.core.settings.Settings.General.rememberIsAmoledMode
-import com.teixeira.vcspace.core.settings.Settings.General.rememberIsDarkMode
-import com.teixeira.vcspace.core.settings.Settings.General.rememberIsDynamicColor
+import com.simple.codeeditor.core.settings.Settings.General.rememberFollowSystemTheme
+import com.simple.codeeditor.core.settings.Settings.General.rememberIsAmoledMode
+import com.simple.codeeditor.core.settings.Settings.General.rememberIsDarkMode
+import com.simple.codeeditor.core.settings.Settings.General.rememberIsDynamicColor
 import kiwi.orbit.compose.ui.foundation.LocalContentColor
 
 private val lightScheme = lightColorScheme(

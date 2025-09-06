@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.crash.components
+package com.simple.codeeditor.ui.screens.crash.components
 
 import android.text.format.DateFormat
 import androidx.compose.foundation.layout.Arrangement
@@ -35,8 +35,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.blankj.utilcode.util.AppUtils
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.core.components.common.VCSpaceLargeTopBar
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.core.components.common.VCSpaceLargeTopBar
 import java.util.Calendar
 
 @OptIn(ExperimentalMaterial3Api::class)

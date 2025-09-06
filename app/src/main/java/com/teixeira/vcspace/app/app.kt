@@ -13,9 +13,9 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.app
+package com.simple.codeeditor.app
 
-import com.teixeira.vcspace.file.File
+import com.simple.codeeditor.file.File
 
 typealias DoNothing = Unit
 typealias Folder = File

@@ -12,11 +12,11 @@
  * You should have received a copy of the GNU General Public License along with Visual Code Space.
  * If not, see <https://www.gnu.org/licenses/>.
  */
-package com.teixeira.vcspace.utils
+package com.simple.codeeditor.utils
 
 import android.util.Log
-import com.teixeira.vcspace.common.BuildConfig
-import com.teixeira.vcspace.extensions.doIf
+import com.simple.codeeditor.common.BuildConfig
+import com.simple.codeeditor.extensions.doIf
 import java.util.WeakHashMap
 
 class Logger private constructor(private val tag: String) {

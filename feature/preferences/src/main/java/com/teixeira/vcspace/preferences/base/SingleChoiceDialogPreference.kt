@@ -1,10 +1,10 @@
-package com.teixeira.vcspace.preferences.base
+package com.simple.codeeditor.preferences.base
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.preference.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.resources.R
 
 abstract class SingleChoiceDialogPreference : Preference {
 

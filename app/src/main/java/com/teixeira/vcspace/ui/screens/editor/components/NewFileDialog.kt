@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components
+package com.simple.codeeditor.ui.screens.editor.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -33,11 +33,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.activities.base.LocalLifecycleScope
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.resources.R.string
-import com.teixeira.vcspace.ui.LocalToastHostState
+import com.simple.codeeditor.activities.base.LocalLifecycleScope
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.resources.R.string
+import com.simple.codeeditor.ui.LocalToastHostState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

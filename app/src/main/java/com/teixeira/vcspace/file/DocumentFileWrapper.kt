@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.file
+package com.simple.codeeditor.file
 
 import android.content.ContentResolver
 import android.content.Context

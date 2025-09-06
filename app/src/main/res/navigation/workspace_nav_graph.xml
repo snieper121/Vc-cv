@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/fragmentExplorer"
-        android:name="com.teixeira.vcspace.fragments.workspace.explorer.FileExplorerFragment"
+        android:name="com.simple.codeeditor.fragments.workspace.explorer.FileExplorerFragment"
         android:label="@string/file_explorer" />
 
 </navigation>

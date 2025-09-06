@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core
+package com.simple.codeeditor.core
 
 class EditorManager private constructor() {
     companion object {

@@ -13,10 +13,10 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.app
+package com.simple.codeeditor.app
 
 import android.content.res.Resources
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.resources.R
 
 typealias strings = R.string
 typealias drawables = R.drawable

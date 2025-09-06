@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.models
+package com.simple.codeeditor.models
 
 import java.io.Serializable
 

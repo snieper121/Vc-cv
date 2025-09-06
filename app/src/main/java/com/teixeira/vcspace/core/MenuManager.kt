@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core
+package com.simple.codeeditor.core
 
 import android.content.Context
 import androidx.compose.material.icons.Icons
@@ -30,8 +30,8 @@ import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material.icons.rounded.Save
 import androidx.compose.material.icons.rounded.SaveAs
 import androidx.compose.material.icons.rounded.Search
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.core.menu.MenuItem
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.core.menu.MenuItem
 
 class MenuManager private constructor() {
     companion object {

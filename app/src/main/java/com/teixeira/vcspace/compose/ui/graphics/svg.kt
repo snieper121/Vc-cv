@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose.ui.graphics
+package com.simple.codeeditor.compose.ui.graphics
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

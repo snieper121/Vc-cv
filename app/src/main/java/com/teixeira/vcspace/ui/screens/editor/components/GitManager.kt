@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components
+package com.simple.codeeditor.ui.screens.editor.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -72,27 +72,27 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.blankj.utilcode.util.ToastUtils
-import com.teixeira.vcspace.activities.Editor.LocalEditorDrawerNavController
-import com.teixeira.vcspace.app.drawables
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.compose.clipUrl
-import com.teixeira.vcspace.extensions.makePluralIf
-import com.teixeira.vcspace.file.wrapFile
-import com.teixeira.vcspace.git.GitActionStatus
-import com.teixeira.vcspace.git.GitManager.Companion.instance
-import com.teixeira.vcspace.git.GitViewModel
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.LocalToastHostState
-import com.teixeira.vcspace.ui.ToastDuration
-import com.teixeira.vcspace.ui.extensions.harmonizeWithPrimary
-import com.teixeira.vcspace.ui.git.AddRemoteSheet
-import com.teixeira.vcspace.ui.git.GitCloneDialog
-import com.teixeira.vcspace.ui.git.GitCommitSheet
-import com.teixeira.vcspace.ui.git.GitInitSheet
-import com.teixeira.vcspace.ui.git.PushChangesSheet
-import com.teixeira.vcspace.ui.navigateSingleTop
-import com.teixeira.vcspace.ui.screens.EditorDrawerScreens
-import com.teixeira.vcspace.ui.screens.file.FileExplorerViewModel
+import com.simple.codeeditor.activities.Editor.LocalEditorDrawerNavController
+import com.simple.codeeditor.app.drawables
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.compose.clipUrl
+import com.simple.codeeditor.extensions.makePluralIf
+import com.simple.codeeditor.file.wrapFile
+import com.simple.codeeditor.git.GitActionStatus
+import com.simple.codeeditor.git.GitManager.Companion.instance
+import com.simple.codeeditor.git.GitViewModel
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.LocalToastHostState
+import com.simple.codeeditor.ui.ToastDuration
+import com.simple.codeeditor.ui.extensions.harmonizeWithPrimary
+import com.simple.codeeditor.ui.git.AddRemoteSheet
+import com.simple.codeeditor.ui.git.GitCloneDialog
+import com.simple.codeeditor.ui.git.GitCommitSheet
+import com.simple.codeeditor.ui.git.GitInitSheet
+import com.simple.codeeditor.ui.git.PushChangesSheet
+import com.simple.codeeditor.ui.navigateSingleTop
+import com.simple.codeeditor.ui.screens.EditorDrawerScreens
+import com.simple.codeeditor.ui.screens.file.FileExplorerViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

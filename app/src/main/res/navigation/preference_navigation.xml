@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.teixeira.vcspace.fragments.SettingsFragment"
+        android:name="com.simple.codeeditor.fragments.SettingsFragment"
         android:label="Settings">
         <action
             android:id="@+id/action_settingsFragment_to_generalSettingsFragment"
@@ -46,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/generalSettingsFragment"
-        android:name="com.teixeira.vcspace.fragments.settings.GeneralSettingsFragment"
+        android:name="com.simple.codeeditor.fragments.settings.GeneralSettingsFragment"
         android:label="General">
         <action
             android:id="@+id/action_generalSettingsFragment_to_settingsFragment"
@@ -58,7 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/editorSettingsFragment"
-        android:name="com.teixeira.vcspace.fragments.settings.EditorSettingsFragment"
+        android:name="com.simple.codeeditor.fragments.settings.EditorSettingsFragment"
         android:label="Editor">
         <action
             android:id="@+id/action_editorSettingsFragment_to_settingsFragment"
@@ -70,7 +70,7 @@
     </fragment>
     <fragment
         android:id="@+id/fileSettingsFragment"
-        android:name="com.teixeira.vcspace.fragments.settings.FileSettingsFragment"
+        android:name="com.simple.codeeditor.fragments.settings.FileSettingsFragment"
         android:label="File Explorer">
         <action
             android:id="@+id/action_fileSettingsFragment_to_settingsFragment"

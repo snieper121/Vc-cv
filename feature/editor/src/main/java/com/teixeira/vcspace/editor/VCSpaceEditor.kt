@@ -13,17 +13,17 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor
+package com.simple.codeeditor.editor
 
 import android.content.Context
 import android.graphics.Rect
 import android.util.AttributeSet
 import android.view.inputmethod.EditorInfo
-import com.teixeira.vcspace.editor.completion.CompletionListAdapter
-import com.teixeira.vcspace.editor.completion.CustomCompletionLayout
-import com.teixeira.vcspace.editor.listener.OnExplainCodeListener
-import com.teixeira.vcspace.editor.listener.OnImportComponentListener
-import com.teixeira.vcspace.file.File
+import com.simple.codeeditor.editor.completion.CompletionListAdapter
+import com.simple.codeeditor.editor.completion.CustomCompletionLayout
+import com.simple.codeeditor.editor.listener.OnExplainCodeListener
+import com.simple.codeeditor.editor.listener.OnImportComponentListener
+import com.simple.codeeditor.file.File
 import io.github.rosemoe.sora.langs.textmate.TextMateLanguage
 import io.github.rosemoe.sora.widget.CodeEditor
 import io.github.rosemoe.sora.widget.component.EditorAutoCompletion

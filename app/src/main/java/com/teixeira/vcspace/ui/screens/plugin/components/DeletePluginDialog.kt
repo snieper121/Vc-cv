@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin.components
+package com.simple.codeeditor.ui.screens.plugin.components
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
@@ -22,8 +22,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.resources.R.string
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.resources.R.string
 
 @Composable
 fun DeletePluginDialog(

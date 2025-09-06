@@ -13,19 +13,19 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.file
+package com.simple.codeeditor.ui.screens.file
 
 import androidx.core.content.edit
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.teixeira.vcspace.PreferenceKeys
-import com.teixeira.vcspace.compose.ui.filetree.FileTreeNode
-import com.teixeira.vcspace.compose.ui.filetree.createFileTreeFromPath
-import com.teixeira.vcspace.events.OnOpenFolderEvent
-import com.teixeira.vcspace.events.OnRefreshFolderEvent
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.git.GitManager
-import com.teixeira.vcspace.preferences.defaultPrefs
+import com.simple.codeeditor.PreferenceKeys
+import com.simple.codeeditor.compose.ui.filetree.FileTreeNode
+import com.simple.codeeditor.compose.ui.filetree.createFileTreeFromPath
+import com.simple.codeeditor.events.OnOpenFolderEvent
+import com.simple.codeeditor.events.OnRefreshFolderEvent
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.git.GitManager
+import com.simple.codeeditor.preferences.defaultPrefs
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

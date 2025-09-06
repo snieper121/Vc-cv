@@ -13,14 +13,14 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core.components.editor
+package com.simple.codeeditor.core.components.editor
 
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.teixeira.vcspace.resources.R.string
-import com.teixeira.vcspace.ui.screens.editor.EditorViewModel
+import com.simple.codeeditor.resources.R.string
+import com.simple.codeeditor.ui.screens.editor.EditorViewModel
 
 @Composable
 fun FileTabActions(

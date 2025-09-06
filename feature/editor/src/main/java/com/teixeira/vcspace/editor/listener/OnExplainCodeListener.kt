@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.listener
+package com.simple.codeeditor.editor.listener
 
 fun interface OnExplainCodeListener {
     fun onExplain(text: CharSequence)

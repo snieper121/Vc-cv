@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components.drawer
+package com.simple.codeeditor.ui.screens.editor.components.drawer
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
@@ -37,14 +37,14 @@ import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEachIndexed
-import com.teixeira.vcspace.activities.Editor.LocalEditorDrawerNavController
-import com.teixeira.vcspace.activities.SettingsActivity
-import com.teixeira.vcspace.activities.TerminalActivity
-import com.teixeira.vcspace.app.drawables
-import com.teixeira.vcspace.extensions.open
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.navigateSingleTop
-import com.teixeira.vcspace.ui.screens.EditorDrawerScreens
+import com.simple.codeeditor.activities.Editor.LocalEditorDrawerNavController
+import com.simple.codeeditor.activities.SettingsActivity
+import com.simple.codeeditor.activities.TerminalActivity
+import com.simple.codeeditor.app.drawables
+import com.simple.codeeditor.extensions.open
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.navigateSingleTop
+import com.simple.codeeditor.ui.screens.EditorDrawerScreens
 
 @Composable
 fun NavRail(

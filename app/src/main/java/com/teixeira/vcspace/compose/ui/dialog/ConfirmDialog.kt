@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose.ui.dialog
+package com.simple.codeeditor.compose.ui.dialog
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Column

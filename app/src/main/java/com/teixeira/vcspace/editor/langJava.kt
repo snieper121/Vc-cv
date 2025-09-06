@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor
+package com.simple.codeeditor.editor
 
 import android.graphics.Color
 import android.util.Log

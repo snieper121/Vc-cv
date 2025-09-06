@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.snippet
+package com.simple.codeeditor.editor.snippet
 
 data class Snippet(
     val trigger: String,

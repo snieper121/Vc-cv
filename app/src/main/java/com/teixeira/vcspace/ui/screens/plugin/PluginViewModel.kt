@@ -13,13 +13,13 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin
+package com.simple.codeeditor.ui.screens.plugin
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.teixeira.vcspace.plugins.PluginLoader
-import com.teixeira.vcspace.plugins.internal.PluginInfo
+import com.simple.codeeditor.plugins.PluginLoader
+import com.simple.codeeditor.plugins.internal.PluginInfo
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

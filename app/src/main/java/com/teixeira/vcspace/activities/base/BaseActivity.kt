@@ -1,4 +1,4 @@
-package com.teixeira.vcspace.activities.base
+package com.simple.codeeditor.activities.base
 
 import android.Manifest.permission
 import android.annotation.SuppressLint
@@ -13,11 +13,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.google.android.material.R.attr
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.teixeira.vcspace.app.BaseApplication
-import com.teixeira.vcspace.app.VCSpaceApplication
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.utils.getAttrColor
-import com.teixeira.vcspace.utils.isStoragePermissionGranted
+import com.simple.codeeditor.app.BaseApplication
+import com.simple.codeeditor.app.VCSpaceApplication
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.utils.getAttrColor
+import com.simple.codeeditor.utils.isStoragePermissionGranted
 import kotlin.system.exitProcess
 
 abstract class BaseActivity : AppCompatActivity() {

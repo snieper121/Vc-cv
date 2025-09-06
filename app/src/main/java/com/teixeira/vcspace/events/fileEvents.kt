@@ -1,7 +1,7 @@
-package com.teixeira.vcspace.events
+package com.simple.codeeditor.events
 
-import com.teixeira.vcspace.app.Folder
-import com.teixeira.vcspace.file.File
+import com.simple.codeeditor.app.Folder
+import com.simple.codeeditor.file.File
 
 data class OnDeleteFileEvent(val file: File, val openedFolder: File)
 

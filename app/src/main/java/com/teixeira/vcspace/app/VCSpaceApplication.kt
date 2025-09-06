@@ -1,4 +1,4 @@
-package com.teixeira.vcspace.app
+package com.simple.codeeditor.app
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -21,10 +21,10 @@ import androidx.core.content.FileProvider
 import com.blankj.utilcode.util.PathUtils
 import com.blankj.utilcode.util.PermissionUtils
 import com.blankj.utilcode.util.PermissionUtils.SimpleCallback
-import com.teixeira.vcspace.activities.CrashActivity
-import com.teixeira.vcspace.core.EventManager
-import com.teixeira.vcspace.extensions.doIfNull
-import com.teixeira.vcspace.providers.GrammarProvider
+import com.simple.codeeditor.activities.CrashActivity
+import com.simple.codeeditor.core.EventManager
+import com.simple.codeeditor.extensions.doIfNull
+import com.simple.codeeditor.providers.GrammarProvider
 import io.github.rosemoe.sora.langs.textmate.registry.FileProviderRegistry
 import io.github.rosemoe.sora.langs.textmate.registry.ThemeRegistry
 import io.github.rosemoe.sora.langs.textmate.registry.model.ThemeModel

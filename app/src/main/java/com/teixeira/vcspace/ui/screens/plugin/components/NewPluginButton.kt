@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin.components
+package com.simple.codeeditor.ui.screens.plugin.components
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -37,8 +37,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.icons.Import
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.icons.Import
 
 @Composable
 fun NewPluginButton(

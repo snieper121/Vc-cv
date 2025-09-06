@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.language.textmate;
+package com.simple.codeeditor.editor.language.textmate;
 
 import org.eclipse.tm4e.core.internal.grammar.tokenattrs.StandardTokenType;
 import org.eclipse.tm4e.languageconfiguration.internal.model.AutoClosingPairConditional;

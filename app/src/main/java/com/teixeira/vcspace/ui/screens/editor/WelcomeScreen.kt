@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor
+package com.simple.codeeditor.ui.screens.editor
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -37,7 +37,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.ui.extensions.harmonizeWithPrimary
+import com.simple.codeeditor.ui.extensions.harmonizeWithPrimary
 
 @Composable
 fun WelcomeScreen(

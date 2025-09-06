@@ -13,11 +13,11 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.activities.base
+package com.simple.codeeditor.activities.base
 
 import android.view.LayoutInflater
 import androidx.compose.runtime.compositionLocalOf
-import com.teixeira.vcspace.app.noLocalProvidedFor
+import com.simple.codeeditor.app.noLocalProvidedFor
 import kotlinx.coroutines.CoroutineScope
 
 val LocalLifecycleScope = compositionLocalOf<CoroutineScope> {

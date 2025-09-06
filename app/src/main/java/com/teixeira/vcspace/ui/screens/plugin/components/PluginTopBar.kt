@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin.components
+package com.simple.codeeditor.ui.screens.plugin.components
 
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -28,8 +28,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.core.components.common.VCSpaceTopBar
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.core.components.common.VCSpaceTopBar
+import com.simple.codeeditor.resources.R
 
 @Composable
 fun PluginTopBar(

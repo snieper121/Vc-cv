@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.extensions
+package com.simple.codeeditor.ui.extensions
 
 import androidx.annotation.FloatRange
 import androidx.compose.material3.MaterialTheme

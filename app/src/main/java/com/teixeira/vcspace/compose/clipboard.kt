@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose
+package com.simple.codeeditor.compose
 
 import android.webkit.URLUtil
 import androidx.compose.runtime.Composable

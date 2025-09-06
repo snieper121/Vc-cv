@@ -13,13 +13,13 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.extensions
+package com.simple.codeeditor.extensions
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.app.ActivityOptionsCompat
-import com.teixeira.vcspace.file.File
+import com.simple.codeeditor.file.File
 import java.io.File as JFile
 
 fun <T> Context.open(clazz: Class<T>, newTask: Boolean = false) {

@@ -13,14 +13,14 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.icon
+package com.simple.codeeditor.ui.icon
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.ui.icons.Icons
+import com.simple.codeeditor.ui.icons.Icons
 
 val Icons.LanguageCpp: ImageVector
     get() {

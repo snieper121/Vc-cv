@@ -1,9 +1,9 @@
-package com.teixeira.vcspace.utils
+package com.simple.codeeditor.utils
 
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
-import com.teixeira.vcspace.file.File
+import com.simple.codeeditor.file.File
 
 /**
  * Adopted from:

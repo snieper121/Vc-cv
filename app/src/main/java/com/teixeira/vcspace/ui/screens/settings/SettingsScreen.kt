@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.settings
+package com.simple.codeeditor.ui.screens.settings
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -42,18 +42,18 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import coil3.compose.AsyncImage
-import com.teixeira.vcspace.activities.AboutActivity
-import com.teixeira.vcspace.activities.PluginsActivity
-import com.teixeira.vcspace.app.BaseApplication
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.extensions.isNotNull
-import com.teixeira.vcspace.extensions.isNull
-import com.teixeira.vcspace.extensions.open
-import com.teixeira.vcspace.github.User
-import com.teixeira.vcspace.github.auth.Api
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.navigateSingleTop
-import com.teixeira.vcspace.ui.screens.SettingScreens
+import com.simple.codeeditor.activities.AboutActivity
+import com.simple.codeeditor.activities.PluginsActivity
+import com.simple.codeeditor.app.BaseApplication
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.extensions.isNotNull
+import com.simple.codeeditor.extensions.isNull
+import com.simple.codeeditor.extensions.open
+import com.simple.codeeditor.github.User
+import com.simple.codeeditor.github.auth.Api
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.navigateSingleTop
+import com.simple.codeeditor.ui.screens.SettingScreens
 import me.zhanghai.compose.preference.ProvidePreferenceLocals
 import me.zhanghai.compose.preference.preference
 import me.zhanghai.compose.preference.preferenceCategory

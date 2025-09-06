@@ -1,11 +1,11 @@
-package com.teixeira.vcspace.preferences
+package com.simple.codeeditor.preferences
 
 import androidx.appcompat.app.AppCompatDelegate
-import com.teixeira.vcspace.PluginConstants
-import com.teixeira.vcspace.PreferenceKeys
-import com.teixeira.vcspace.app.BaseApplication
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.utils.isDarkMode
+import com.simple.codeeditor.PluginConstants
+import com.simple.codeeditor.PreferenceKeys
+import com.simple.codeeditor.app.BaseApplication
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.utils.isDarkMode
 
 // General
 const val PREF_APPEARANCE_UI_MODE_KEY = "pref_aparence_uimode_key"

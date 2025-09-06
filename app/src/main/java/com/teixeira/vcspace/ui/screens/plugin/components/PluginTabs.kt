@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin.components
+package com.simple.codeeditor.ui.screens.plugin.components
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Tab
@@ -22,7 +22,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
-import com.teixeira.vcspace.ui.screens.PluginScreens
+import com.simple.codeeditor.ui.screens.PluginScreens
 
 @Composable
 fun PluginTabs(

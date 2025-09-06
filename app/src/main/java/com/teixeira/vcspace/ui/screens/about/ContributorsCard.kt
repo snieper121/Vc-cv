@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.about
+package com.simple.codeeditor.ui.screens.about
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -46,14 +46,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import com.teixeira.vcspace.APPLICATION_REPOSITORY_NAME
-import com.teixeira.vcspace.BuildConfig
-import com.teixeira.vcspace.ORGANIZATION_NAME
-import com.teixeira.vcspace.github.Contributor
-import com.teixeira.vcspace.github.GitHubService
-import com.teixeira.vcspace.github.User
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.extensions.harmonizeWithPrimary
+import com.simple.codeeditor.APPLICATION_REPOSITORY_NAME
+import com.simple.codeeditor.BuildConfig
+import com.simple.codeeditor.ORGANIZATION_NAME
+import com.simple.codeeditor.github.Contributor
+import com.simple.codeeditor.github.GitHubService
+import com.simple.codeeditor.github.User
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.extensions.harmonizeWithPrimary
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

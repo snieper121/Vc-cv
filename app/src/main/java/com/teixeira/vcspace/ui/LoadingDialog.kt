@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui
+package com.simple.codeeditor.ui
 
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.LinearEasing
@@ -51,7 +51,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import com.teixeira.vcspace.ui.extensions.harmonizeWithPrimary
+import com.simple.codeeditor.ui.extensions.harmonizeWithPrimary
 
 @Composable
 fun LoadingDialog(

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core.components
+package com.simple.codeeditor.core.components
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween

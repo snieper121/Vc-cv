@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor
+package com.simple.codeeditor.ui.screens.editor
 
 import android.content.Context
 import android.view.View
@@ -25,13 +25,13 @@ import com.blankj.utilcode.util.FileUtils
 import com.blankj.utilcode.util.ToastUtils
 import com.google.gson.Gson
 import com.itsvks.monaco.MonacoEditor
-import com.teixeira.vcspace.activities.EditorActivity.Companion.LAST_OPENED_FILES_JSON_PATH
-import com.teixeira.vcspace.core.EventManager
-import com.teixeira.vcspace.extensions.toFile
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.file.wrapFile
-import com.teixeira.vcspace.models.FileHistory
-import com.teixeira.vcspace.ui.screens.editor.components.view.CodeEditorView
+import com.simple.codeeditor.activities.EditorActivity.Companion.LAST_OPENED_FILES_JSON_PATH
+import com.simple.codeeditor.core.EventManager
+import com.simple.codeeditor.extensions.toFile
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.file.wrapFile
+import com.simple.codeeditor.models.FileHistory
+import com.simple.codeeditor.ui.screens.editor.components.view.CodeEditorView
 import com.vcspace.plugins.event.FileCloseEvent
 import com.vcspace.plugins.event.FileModifiedEvent
 import com.vcspace.plugins.event.FileOpenedEvent

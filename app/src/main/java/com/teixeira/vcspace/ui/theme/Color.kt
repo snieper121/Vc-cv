@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.theme
+package com.simple.codeeditor.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

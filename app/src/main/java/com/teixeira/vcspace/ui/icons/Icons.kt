@@ -13,6 +13,6 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.icons
+package com.simple.codeeditor.ui.icons
 
 object Icons

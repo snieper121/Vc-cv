@@ -13,11 +13,11 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose
+package com.simple.codeeditor.compose
 
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.staticCompositionLocalOf
-import com.teixeira.vcspace.core.MenuManager
+import com.simple.codeeditor.core.MenuManager
 
 val LocalMenuManager = staticCompositionLocalOf { MenuManager.instance }
 val LocalDarkMode = compositionLocalOf { false }

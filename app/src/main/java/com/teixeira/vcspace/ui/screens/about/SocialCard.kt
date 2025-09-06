@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.about
+package com.simple.codeeditor.ui.screens.about
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -40,9 +40,9 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.extensions.harmonizeWithPrimary
-import com.teixeira.vcspace.ui.icons.Telegram
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.extensions.harmonizeWithPrimary
+import com.simple.codeeditor.ui.icons.Telegram
 
 @Composable
 fun SocialCard(modifier: Modifier = Modifier) {

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.plugin.components
+package com.simple.codeeditor.ui.screens.plugin.components
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -36,12 +36,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.PluginConstants
-import com.teixeira.vcspace.extensions.toFile
-import com.teixeira.vcspace.plugins.internal.PluginInfo
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.LocalToastHostState
-import com.teixeira.vcspace.ui.screens.plugin.PluginViewModel
+import com.simple.codeeditor.PluginConstants
+import com.simple.codeeditor.extensions.toFile
+import com.simple.codeeditor.plugins.internal.PluginInfo
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.LocalToastHostState
+import com.simple.codeeditor.ui.screens.plugin.PluginViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

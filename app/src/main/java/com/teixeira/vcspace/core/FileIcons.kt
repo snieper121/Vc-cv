@@ -13,9 +13,9 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core
+package com.simple.codeeditor.core
 
-import com.teixeira.vcspace.extensions.toFile
+import com.simple.codeeditor.extensions.toFile
 
 data class FileIcon(
     val name: String,

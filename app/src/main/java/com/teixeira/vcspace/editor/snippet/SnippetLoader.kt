@@ -13,10 +13,10 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.snippet
+package com.simple.codeeditor.editor.snippet
 
 import com.google.gson.Gson
-import com.teixeira.vcspace.extensions.toFile
+import com.simple.codeeditor.extensions.toFile
 
 object SnippetLoader {
     @JvmStatic

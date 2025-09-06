@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.completion
+package com.simple.codeeditor.editor.completion
 
 abstract class CompletionProvider {
     abstract fun getCompletions(params: CompletionParams?): List<VCSpaceCompletionItem?>?

@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components.drawer
+package com.simple.codeeditor.ui.screens.editor.components.drawer
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -49,17 +49,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.documentfile.provider.DocumentFile
 import com.blankj.utilcode.util.UriUtils
-import com.teixeira.vcspace.PreferenceKeys
-import com.teixeira.vcspace.activities.Editor.LocalCommandPaletteManager
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.extensions.toFile
-import com.teixeira.vcspace.file.DocumentFileWrapper
-import com.teixeira.vcspace.file.wrapFile
-import com.teixeira.vcspace.keyboard.model.Command.Companion.newCommand
-import com.teixeira.vcspace.preferences.defaultPrefs
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.screens.file.FileExplorerViewModel
-import com.teixeira.vcspace.utils.showShortToast
+import com.simple.codeeditor.PreferenceKeys
+import com.simple.codeeditor.activities.Editor.LocalCommandPaletteManager
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.extensions.toFile
+import com.simple.codeeditor.file.DocumentFileWrapper
+import com.simple.codeeditor.file.wrapFile
+import com.simple.codeeditor.keyboard.model.Command.Companion.newCommand
+import com.simple.codeeditor.preferences.defaultPrefs
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.screens.file.FileExplorerViewModel
+import com.simple.codeeditor.utils.showShortToast
 import java.io.File
 
 @Composable

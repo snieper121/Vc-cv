@@ -13,9 +13,9 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.events
+package com.simple.codeeditor.editor.events
 
-import com.teixeira.vcspace.file.File
+import com.simple.codeeditor.file.File
 
 data class OnContentChangeEvent(
     val file: File?

@@ -13,6 +13,6 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.completion
+package com.simple.codeeditor.editor.completion
 
 class CompletionParams(val prefix: String, val line: Int, val column: Int, val index: Int)

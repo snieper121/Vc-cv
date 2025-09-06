@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui
+package com.simple.codeeditor.ui
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.ContentTransform
@@ -63,8 +63,8 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
-import com.teixeira.vcspace.app.noLocalProvidedFor
-import com.teixeira.vcspace.ui.extensions.harmonizeWithPrimary
+import com.simple.codeeditor.app.noLocalProvidedFor
+import com.simple.codeeditor.ui.extensions.harmonizeWithPrimary
 import kotlinx.coroutines.CancellableContinuation
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.suspendCancellableCoroutine

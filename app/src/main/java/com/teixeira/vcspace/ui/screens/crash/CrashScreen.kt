@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.crash
+package com.simple.codeeditor.ui.screens.crash
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Column

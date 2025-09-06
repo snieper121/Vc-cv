@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.utils
+package com.simple.codeeditor.utils
 
 import android.content.Context
 import android.widget.Toast

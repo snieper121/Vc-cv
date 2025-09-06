@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.core.menu
+package com.simple.codeeditor.core.menu
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

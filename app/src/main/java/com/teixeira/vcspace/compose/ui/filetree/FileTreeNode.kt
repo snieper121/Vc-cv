@@ -13,33 +13,33 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose.ui.filetree
+package com.simple.codeeditor.compose.ui.filetree
 
 import android.annotation.SuppressLint
 import androidx.compose.material.icons.automirrored.filled.InsertDriveFile
 import androidx.compose.material.icons.filled.Image
 import androidx.compose.material.icons.filled.VideoFile
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.file.extension
-import com.teixeira.vcspace.ui.icon.LanguageCpp
-import com.teixeira.vcspace.ui.icons.Icons
-import com.teixeira.vcspace.ui.icons.LanguageC
-import com.teixeira.vcspace.ui.icons.LanguageCsharp
-import com.teixeira.vcspace.ui.icons.LanguageCss3
-import com.teixeira.vcspace.ui.icons.LanguageGo
-import com.teixeira.vcspace.ui.icons.LanguageHtml5
-import com.teixeira.vcspace.ui.icons.LanguageJava
-import com.teixeira.vcspace.ui.icons.LanguageJavascript
-import com.teixeira.vcspace.ui.icons.LanguageKotlin
-import com.teixeira.vcspace.ui.icons.LanguageLua
-import com.teixeira.vcspace.ui.icons.LanguageMarkdown
-import com.teixeira.vcspace.ui.icons.LanguagePhp
-import com.teixeira.vcspace.ui.icons.LanguagePython
-import com.teixeira.vcspace.ui.icons.LanguageRust
-import com.teixeira.vcspace.ui.icons.LanguageSwift
-import com.teixeira.vcspace.ui.icons.LanguageTypescript
-import com.teixeira.vcspace.ui.icons.LanguageXml
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.file.extension
+import com.simple.codeeditor.ui.icon.LanguageCpp
+import com.simple.codeeditor.ui.icons.Icons
+import com.simple.codeeditor.ui.icons.LanguageC
+import com.simple.codeeditor.ui.icons.LanguageCsharp
+import com.simple.codeeditor.ui.icons.LanguageCss3
+import com.simple.codeeditor.ui.icons.LanguageGo
+import com.simple.codeeditor.ui.icons.LanguageHtml5
+import com.simple.codeeditor.ui.icons.LanguageJava
+import com.simple.codeeditor.ui.icons.LanguageJavascript
+import com.simple.codeeditor.ui.icons.LanguageKotlin
+import com.simple.codeeditor.ui.icons.LanguageLua
+import com.simple.codeeditor.ui.icons.LanguageMarkdown
+import com.simple.codeeditor.ui.icons.LanguagePhp
+import com.simple.codeeditor.ui.icons.LanguagePython
+import com.simple.codeeditor.ui.icons.LanguageRust
+import com.simple.codeeditor.ui.icons.LanguageSwift
+import com.simple.codeeditor.ui.icons.LanguageTypescript
+import com.simple.codeeditor.ui.icons.LanguageXml
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow

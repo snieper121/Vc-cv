@@ -1,4 +1,4 @@
-package com.teixeira.vcspace.editor
+package com.simple.codeeditor.editor
 
 import android.content.Context
 import android.text.Editable
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.widget.PopupMenu
-import com.teixeira.vcspace.editor.databinding.LayoutSearcherBinding
-import com.teixeira.vcspace.resources.R
+import com.simple.codeeditor.editor.databinding.LayoutSearcherBinding
+import com.simple.codeeditor.resources.R
 import io.github.rosemoe.sora.widget.EditorSearcher
 import io.github.rosemoe.sora.widget.EditorSearcher.SearchOptions
 

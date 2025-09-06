@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.utils
+package com.simple.codeeditor.utils
 
 import android.Manifest
 import android.content.Context
@@ -21,8 +21,8 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Environment
 import androidx.core.content.ContextCompat
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.file.extension
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.file.extension
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.io.File as JFile

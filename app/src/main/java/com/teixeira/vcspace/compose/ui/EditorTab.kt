@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose.ui
+package com.simple.codeeditor.compose.ui
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.clickable
@@ -37,7 +37,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.teixeira.vcspace.ui.screens.editor.EditorViewModel
+import com.simple.codeeditor.ui.screens.editor.EditorViewModel
 import kiwi.orbit.compose.icons.Icons
 import kiwi.orbit.compose.ui.controls.Icon
 import kiwi.orbit.compose.ui.controls.Separator

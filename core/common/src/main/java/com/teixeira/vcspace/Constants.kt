@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace
+package com.simple.codeeditor
 
 import com.blankj.utilcode.util.PathUtils
 

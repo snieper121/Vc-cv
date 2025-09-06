@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.dialogs
+package com.simple.codeeditor.dialogs
 
 import android.content.Context
 import android.content.DialogInterface
@@ -21,7 +21,7 @@ import android.view.LayoutInflater
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.teixeira.vcspace.resources.databinding.LayoutProgressDialogBinding
+import com.simple.codeeditor.resources.databinding.LayoutProgressDialogBinding
 
 class ProgressDialogBuilder(val context: Context) {
 

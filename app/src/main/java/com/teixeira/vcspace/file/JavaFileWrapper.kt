@@ -13,14 +13,14 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.file
+package com.simple.codeeditor.file
 
 import android.content.Context
 import android.net.Uri
 import android.webkit.MimeTypeMap
 import androidx.core.content.FileProvider
 import com.blankj.utilcode.util.FileIOUtils
-import com.teixeira.vcspace.utils.isValidTextFile
+import com.simple.codeeditor.utils.isValidTextFile
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import java.io.IOException

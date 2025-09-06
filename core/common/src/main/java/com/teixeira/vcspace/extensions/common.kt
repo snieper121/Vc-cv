@@ -15,7 +15,7 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.teixeira.vcspace.extensions
+package com.simple.codeeditor.extensions
 
 import java.util.Locale
 

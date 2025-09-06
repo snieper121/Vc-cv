@@ -13,6 +13,6 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.models
+package com.simple.codeeditor.models
 
 class Symbol(val label: String, val insert: String = label)

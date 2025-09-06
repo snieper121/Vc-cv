@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.ai
+package com.simple.codeeditor.ui.screens.editor.ai
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.clickable

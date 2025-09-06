@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components
+package com.simple.codeeditor.ui.screens.editor.components
 
 import android.app.Activity
 import android.content.Context
@@ -64,29 +64,29 @@ import com.blankj.utilcode.util.KeyboardUtils
 import com.blankj.utilcode.util.ToastUtils
 import com.blankj.utilcode.util.UriUtils
 import com.hzy.libp7zip.P7ZipApi
-import com.teixeira.vcspace.activities.Editor.LocalCommandPaletteManager
-import com.teixeira.vcspace.activities.Editor.LocalEditorDrawerState
-import com.teixeira.vcspace.activities.MarkdownPreviewActivity
-import com.teixeira.vcspace.activities.TerminalActivity
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.compose.LocalMenuManager
-import com.teixeira.vcspace.core.EventManager
-import com.teixeira.vcspace.core.components.Tooltip
-import com.teixeira.vcspace.core.components.common.VCSpaceTopBar
-import com.teixeira.vcspace.core.settings.Settings.EditorTabs.rememberAutoSave
-import com.teixeira.vcspace.editor.events.OnContentChangeEvent
-import com.teixeira.vcspace.editor.events.OnKeyBindingEvent
-import com.teixeira.vcspace.extensions.open
-import com.teixeira.vcspace.file.extension
-import com.teixeira.vcspace.file.wrapFile
-import com.teixeira.vcspace.keyboard.model.Command.Companion.newCommand
-import com.teixeira.vcspace.preferences.pythonDownloaded
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.screens.editor.EditorViewModel
-import com.teixeira.vcspace.ui.screens.editor.components.view.CodeEditorView
-import com.teixeira.vcspace.utils.isFileRunnable
-import com.teixeira.vcspace.utils.launchWithProgressDialog
-import com.teixeira.vcspace.webserver.LocalHttpServer
+import com.simple.codeeditor.activities.Editor.LocalCommandPaletteManager
+import com.simple.codeeditor.activities.Editor.LocalEditorDrawerState
+import com.simple.codeeditor.activities.MarkdownPreviewActivity
+import com.simple.codeeditor.activities.TerminalActivity
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.compose.LocalMenuManager
+import com.simple.codeeditor.core.EventManager
+import com.simple.codeeditor.core.components.Tooltip
+import com.simple.codeeditor.core.components.common.VCSpaceTopBar
+import com.simple.codeeditor.core.settings.Settings.EditorTabs.rememberAutoSave
+import com.simple.codeeditor.editor.events.OnContentChangeEvent
+import com.simple.codeeditor.editor.events.OnKeyBindingEvent
+import com.simple.codeeditor.extensions.open
+import com.simple.codeeditor.file.extension
+import com.simple.codeeditor.file.wrapFile
+import com.simple.codeeditor.keyboard.model.Command.Companion.newCommand
+import com.simple.codeeditor.preferences.pythonDownloaded
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.screens.editor.EditorViewModel
+import com.simple.codeeditor.ui.screens.editor.components.view.CodeEditorView
+import com.simple.codeeditor.utils.isFileRunnable
+import com.simple.codeeditor.utils.launchWithProgressDialog
+import com.simple.codeeditor.webserver.LocalHttpServer
 import com.vcspace.plugins.editor.Position
 import com.vcspace.plugins.event.CursorChangedEvent
 import com.vcspace.plugins.event.TextChangeEvent

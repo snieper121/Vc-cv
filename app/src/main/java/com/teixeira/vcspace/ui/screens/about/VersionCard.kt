@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.about
+package com.simple.codeeditor.ui.screens.about
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -41,11 +41,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import com.blankj.utilcode.util.ClipboardUtils
-import com.teixeira.vcspace.BuildConfig
-import com.teixeira.vcspace.app.drawables
-import com.teixeira.vcspace.app.strings
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.ui.extensions.harmonizeWithPrimary
+import com.simple.codeeditor.BuildConfig
+import com.simple.codeeditor.app.drawables
+import com.simple.codeeditor.app.strings
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.ui.extensions.harmonizeWithPrimary
 
 @Composable
 fun VersionCard(modifier: Modifier = Modifier) {

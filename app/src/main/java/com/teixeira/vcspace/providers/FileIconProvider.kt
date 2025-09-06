@@ -1,13 +1,13 @@
-package com.teixeira.vcspace.providers
+package com.simple.codeeditor.providers
 
 import android.annotation.SuppressLint
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.file.extension
-import com.teixeira.vcspace.models.FileIcon
-import com.teixeira.vcspace.resources.R
-import com.teixeira.vcspace.app.BaseApplication.Companion.instance as app
+import com.simple.codeeditor.file.File
+import com.simple.codeeditor.file.extension
+import com.simple.codeeditor.models.FileIcon
+import com.simple.codeeditor.resources.R
+import com.simple.codeeditor.app.BaseApplication.Companion.instance as app
 
 /**
  * Class to provide File icons

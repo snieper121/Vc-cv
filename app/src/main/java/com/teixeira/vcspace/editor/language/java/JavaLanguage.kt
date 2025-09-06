@@ -13,12 +13,12 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.editor.language.java
+package com.simple.codeeditor.editor.language.java
 
 import android.os.Bundle
 import androidx.compose.ui.util.fastForEach
-import com.teixeira.vcspace.editor.completion.SimpleSnippetCompletionItem
-import com.teixeira.vcspace.editor.snippet.SnippetController
+import com.simple.codeeditor.editor.completion.SimpleSnippetCompletionItem
+import com.simple.codeeditor.editor.snippet.SnippetController
 import io.github.rosemoe.sora.lang.EmptyLanguage
 import io.github.rosemoe.sora.lang.Language
 import io.github.rosemoe.sora.lang.QuickQuoteHandler

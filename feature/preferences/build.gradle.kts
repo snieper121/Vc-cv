@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.teixeira.vcspace.preferences"
+    namespace = "com.simple.codeeditor.preferences"
 
     buildTypes {
         release {

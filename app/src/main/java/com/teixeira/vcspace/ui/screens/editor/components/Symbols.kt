@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.editor.components
+package com.simple.codeeditor.ui.screens.editor.components
 
 import android.view.View
 import androidx.compose.foundation.border
@@ -35,9 +35,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import com.itsvks.monaco.MonacoEditor
-import com.teixeira.vcspace.core.settings.Settings.Editor.rememberSymbols
-import com.teixeira.vcspace.ui.extensions.blend
-import com.teixeira.vcspace.ui.screens.editor.components.view.CodeEditorView
+import com.simple.codeeditor.core.settings.Settings.Editor.rememberSymbols
+import com.simple.codeeditor.ui.extensions.blend
+import com.simple.codeeditor.ui.screens.editor.components.view.CodeEditorView
 
 @Composable
 fun Symbols(
