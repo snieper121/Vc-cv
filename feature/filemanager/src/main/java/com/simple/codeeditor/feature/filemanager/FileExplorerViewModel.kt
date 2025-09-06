@@ -13,14 +13,14 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.ui.screens.file
+package com.simple.codeeditor.feature.filemanager
 
 import androidx.core.content.edit
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.teixeira.vcspace.PreferenceKeys
-import com.teixeira.vcspace.compose.ui.filetree.FileTreeNode
-import com.teixeira.vcspace.compose.ui.filetree.createFileTreeFromPath
+import com.simple.codeeditor.feature.filemanager.filetree.FileTreeNode
+import com.simple.codeeditor.feature.filemanager.filetree.createFileTreeFromPath
 import com.teixeira.vcspace.events.OnOpenFolderEvent
 import com.teixeira.vcspace.events.OnRefreshFolderEvent
 import com.teixeira.vcspace.file.File

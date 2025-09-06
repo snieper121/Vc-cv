@@ -13,7 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.teixeira.vcspace.compose.ui.filetree
+package com.simple.codeeditor.feature.filemanager.filetree
 
 import android.annotation.SuppressLint
 import androidx.compose.material.icons.automirrored.filled.InsertDriveFile

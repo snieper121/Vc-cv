@@ -35,8 +35,18 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.activity.compose)
 
+    // Sora Editor
+    implementation(libs.common.editor)
+    implementation(libs.common.editor.textmate)
+    
+    // Модули проекта
     implementation(project(":feature:editor"))
     implementation(project(":feature:filemanager"))
+    implementation(project(":feature:preferences"))
     implementation(project(":core:common"))
     implementation(project(":core:resources"))
+    
+    // Утилиты
+    implementation(libs.common.utilcode)
+    implementation(libs.google.gson)
 }

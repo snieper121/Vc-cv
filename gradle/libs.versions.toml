@@ -5,7 +5,7 @@ activity-compose = "1.9.2"
 gson = "2.11.0"
 utilcode = "1.31.1"
 documentfile = "1.0.1"
-# Sora/TextMate замените на актуальные артефакты вашего источника
+# Sora Editor
 common-editor = "0.23.0"
 common-editor-textmate = "0.23.0"
 
@@ -19,5 +19,6 @@ google-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 common-utilcode = { module = "com.blankj:utilcodex", version.ref = "utilcode" }
 androidx-documentfile = { module = "androidx.documentfile:documentfile", version.ref = "documentfile" }
 
+# Sora Editor
 common-editor = { module = "io.github.rosemoe.sora-editor:editor", version.ref = "common-editor" }
 common-editor-textmate = { module = "io.github.rosemoe.sora-editor:language-textmate", version.ref = "common-editor-textmate" }
