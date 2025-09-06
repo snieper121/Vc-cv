@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - Code_IDE
   # Также можно добавить запуск по Pull Request
   # pull_request:
   #   branches:
