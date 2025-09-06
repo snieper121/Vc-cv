@@ -1,18 +1,3 @@
-/*
- * This file is part of Simple Code Editor.
- *
- * Simple Code Editor is free software: you can redistribute it and/or modify it under the terms of
- * the GNU General Public License as published by the Free Software Foundation, either version 3 of
- * the License, or (at your option) any later version.
- *
- * Simple Code Editor is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License along with Simple Code Editor.
- * If not, see <https://www.gnu.org/licenses/>.
- */
-
 package com.simple.codeeditor.ui.screens.editor.components
 
 import androidx.compose.foundation.layout.Box
@@ -50,7 +35,7 @@ import com.blankj.utilcode.util.ClipboardUtils
 import com.simple.codeeditor.activities.Editor.LocalEditorDrawerNavController
 import com.simple.codeeditor.activities.Editor.LocalEditorDrawerState
 import com.simple.codeeditor.app.strings
-import com.simple.codeeditor.compose.ui.filetree.FileTreeView
+import com.simple.codeeditor.feature.filemanager.filetree.FileTreeView
 import com.simple.codeeditor.core.components.editor.FileOptionItem
 import com.simple.codeeditor.core.components.editor.FileOptionsSheet
 import com.simple.codeeditor.core.components.editor.NavigationSpace
@@ -61,15 +46,10 @@ import com.simple.codeeditor.events.OnCreateFolderEvent
 import com.simple.codeeditor.events.OnRefreshFolderEvent
 import com.simple.codeeditor.extensions.openFile
 import com.simple.codeeditor.file.File
-import com.simple.codeeditor.git.GitViewModel
 import com.simple.codeeditor.resources.R.string
-import com.simple.codeeditor.ui.screens.EditorDrawerScreens
 import com.simple.codeeditor.ui.screens.editor.EditorViewModel
 import com.simple.codeeditor.ui.screens.editor.components.drawer.Heading
-import com.simple.codeeditor.ui.screens.editor.components.drawer.NavRail
 import com.simple.codeeditor.ui.screens.editor.components.drawer.OpenFolderActions
-import com.simple.codeeditor.ui.screens.file.FileExplorerViewModel
-import com.simple.codeeditor.utils.ApkInstaller
 import kiwi.orbit.compose.ui.controls.Text
 import kotlinx.coroutines.launch
 import org.greenrobot.eventbus.EventBus

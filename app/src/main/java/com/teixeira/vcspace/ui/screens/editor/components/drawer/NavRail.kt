@@ -25,8 +25,6 @@ import androidx.compose.material.icons.rounded.Folder
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.Terminal
 import androidx.compose.material3.Icon
-import androidx.compose.material3.NavigationRail
-import androidx.compose.material3.NavigationRailItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -38,13 +36,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEachIndexed
 import com.simple.codeeditor.activities.Editor.LocalEditorDrawerNavController
-import com.simple.codeeditor.activities.SettingsActivity
-import com.simple.codeeditor.activities.TerminalActivity
 import com.simple.codeeditor.app.drawables
 import com.simple.codeeditor.extensions.open
 import com.simple.codeeditor.resources.R
 import com.simple.codeeditor.ui.navigateSingleTop
-import com.simple.codeeditor.ui.screens.EditorDrawerScreens
 
 @Composable
 fun NavRail(

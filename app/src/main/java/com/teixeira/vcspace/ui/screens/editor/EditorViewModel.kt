@@ -32,10 +32,6 @@ import com.simple.codeeditor.file.File
 import com.simple.codeeditor.file.wrapFile
 import com.simple.codeeditor.models.FileHistory
 import com.simple.codeeditor.ui.screens.editor.components.view.CodeEditorView
-import com.vcspace.plugins.event.FileCloseEvent
-import com.vcspace.plugins.event.FileModifiedEvent
-import com.vcspace.plugins.event.FileOpenedEvent
-import com.vcspace.plugins.event.FileSaveEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -16,8 +16,6 @@
 package com.simple.codeeditor.core
 
 import androidx.compose.runtime.mutableStateMapOf
-import com.vcspace.plugins.panel.ComposeFactory
-import com.vcspace.plugins.panel.Panel
 
 class PanelManager private constructor() {
     companion object {

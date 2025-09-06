@@ -16,23 +16,6 @@
 package com.simple.codeeditor.editor.language.java
 
 import android.os.Bundle
-import io.github.rosemoe.sora.lang.analysis.AsyncIncrementalAnalyzeManager
-import io.github.rosemoe.sora.lang.analysis.IncrementalAnalyzeManager.LineTokenizeResult
-import io.github.rosemoe.sora.lang.analysis.StyleReceiver
-import io.github.rosemoe.sora.lang.brackets.SimpleBracketsCollector
-import io.github.rosemoe.sora.lang.completion.IdentifierAutoComplete.SyncIdentifiers
-import io.github.rosemoe.sora.lang.styling.CodeBlock
-import io.github.rosemoe.sora.lang.styling.Span
-import io.github.rosemoe.sora.lang.styling.SpanFactory
-import io.github.rosemoe.sora.lang.styling.TextStyle
-import io.github.rosemoe.sora.lang.styling.color.EditorColor
-import io.github.rosemoe.sora.lang.styling.span.SpanClickableUrl
-import io.github.rosemoe.sora.lang.styling.span.SpanExtAttrs
-import io.github.rosemoe.sora.text.Content
-import io.github.rosemoe.sora.text.ContentReference
-import io.github.rosemoe.sora.util.ArrayList
-import io.github.rosemoe.sora.util.IntPair
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 import java.util.Stack
 import java.util.regex.Pattern
 

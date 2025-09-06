@@ -21,14 +21,9 @@ import androidx.core.content.FileProvider
 import com.blankj.utilcode.util.PathUtils
 import com.blankj.utilcode.util.PermissionUtils
 import com.blankj.utilcode.util.PermissionUtils.SimpleCallback
-import com.simple.codeeditor.activities.CrashActivity
 import com.simple.codeeditor.core.EventManager
 import com.simple.codeeditor.extensions.doIfNull
 import com.simple.codeeditor.providers.GrammarProvider
-import io.github.rosemoe.sora.langs.textmate.registry.FileProviderRegistry
-import io.github.rosemoe.sora.langs.textmate.registry.ThemeRegistry
-import io.github.rosemoe.sora.langs.textmate.registry.model.ThemeModel
-import io.github.rosemoe.sora.langs.textmate.registry.provider.AssetsFileResolver
 import org.eclipse.tm4e.core.registry.IThemeSource
 import java.io.File
 import java.io.PrintWriter

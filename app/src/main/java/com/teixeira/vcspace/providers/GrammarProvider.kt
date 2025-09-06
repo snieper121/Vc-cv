@@ -18,9 +18,6 @@ package com.simple.codeeditor.providers
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import io.github.rosemoe.sora.langs.textmate.registry.FileProviderRegistry
-import io.github.rosemoe.sora.langs.textmate.registry.GrammarRegistry
-import io.github.rosemoe.sora.langs.textmate.registry.model.DefaultGrammarDefinition
 import org.eclipse.tm4e.core.registry.IGrammarSource
 import java.nio.charset.Charset
 

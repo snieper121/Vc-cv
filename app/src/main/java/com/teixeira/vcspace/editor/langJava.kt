@@ -21,29 +21,6 @@ import androidx.core.graphics.ColorUtils
 import com.itsaky.androidide.treesitter.TSQuery
 import com.itsaky.androidide.treesitter.TSQueryCapture
 import com.itsaky.androidide.treesitter.java.TSLanguageJava
-import io.github.rosemoe.sora.editor.ts.LocalsCaptureSpec
-import io.github.rosemoe.sora.editor.ts.TsAnalyzeManager
-import io.github.rosemoe.sora.editor.ts.TsLanguage
-import io.github.rosemoe.sora.editor.ts.TsLanguageSpec
-import io.github.rosemoe.sora.editor.ts.TsTheme
-import io.github.rosemoe.sora.editor.ts.TsThemeBuilder
-import io.github.rosemoe.sora.editor.ts.spans.DefaultSpanFactory
-import io.github.rosemoe.sora.lang.styling.Span
-import io.github.rosemoe.sora.lang.styling.SpanFactory
-import io.github.rosemoe.sora.lang.styling.Styles
-import io.github.rosemoe.sora.lang.styling.TextStyle.makeStyle
-import io.github.rosemoe.sora.lang.styling.span.SpanConstColorResolver
-import io.github.rosemoe.sora.lang.styling.span.SpanExtAttrs
-import io.github.rosemoe.sora.lang.styling.textStyle
-import io.github.rosemoe.sora.text.ContentReference
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme.COMMENT
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme.FUNCTION_NAME
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme.IDENTIFIER_NAME
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme.IDENTIFIER_VAR
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme.KEYWORD
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme.LITERAL
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme.OPERATOR
 
 /**
  * Tree Sitter language for Java.

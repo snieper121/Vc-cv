@@ -22,8 +22,6 @@ import android.view.ViewGroup
 import androidx.core.view.updatePadding
 import com.blankj.utilcode.util.SizeUtils
 import com.simple.codeeditor.editor.databinding.LayoutCompletionItemBinding
-import io.github.rosemoe.sora.lang.completion.SimpleCompletionItem
-import io.github.rosemoe.sora.widget.component.EditorCompletionAdapter
 
 class CompletionListAdapter : EditorCompletionAdapter() {
 

@@ -15,9 +15,6 @@
 
 package com.simple.codeeditor.core
 
-import com.vcspace.plugins.event.Event
-import com.vcspace.plugins.event.EventListener
-import com.vcspace.plugins.event.EventType
 
 class EventManager {
     companion object {

@@ -15,11 +15,6 @@
 
 package com.simple.codeeditor.editor.completion
 
-import io.github.rosemoe.sora.lang.completion.CompletionItem
-import io.github.rosemoe.sora.lang.completion.SnippetDescription
-import io.github.rosemoe.sora.text.CharPosition
-import io.github.rosemoe.sora.text.Content
-import io.github.rosemoe.sora.widget.CodeEditor
 
 abstract class VCSpaceCompletionItem(
     val completionKind: CompletionItemKind,

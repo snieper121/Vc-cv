@@ -21,12 +21,6 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.LinearLayout
 import com.blankj.utilcode.util.SizeUtils
-import io.github.rosemoe.sora.event.HandleStateChangeEvent
-import io.github.rosemoe.sora.event.InterceptTarget
-import io.github.rosemoe.sora.event.LongPressEvent
-import io.github.rosemoe.sora.event.ScrollEvent
-import io.github.rosemoe.sora.event.SelectionChangeEvent
-import io.github.rosemoe.sora.widget.base.EditorPopupWindow
 import kotlin.math.max
 import kotlin.math.min
 

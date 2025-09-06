@@ -51,8 +51,6 @@ import com.simple.codeeditor.core.settings.Settings.General.rememberIsAmoledMode
 import com.simple.codeeditor.core.settings.Settings.General.rememberIsDarkMode
 import com.simple.codeeditor.core.settings.Settings.General.rememberIsDynamicColor
 import com.simple.codeeditor.resources.R
-import me.zhanghai.compose.preference.preferenceCategory
-import me.zhanghai.compose.preference.switchPreference
 
 @Composable
 fun GeneralSettingsScreen(

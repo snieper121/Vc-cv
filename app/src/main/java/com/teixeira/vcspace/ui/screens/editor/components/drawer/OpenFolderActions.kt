@@ -58,7 +58,7 @@ import com.simple.codeeditor.file.wrapFile
 import com.simple.codeeditor.keyboard.model.Command.Companion.newCommand
 import com.simple.codeeditor.preferences.defaultPrefs
 import com.simple.codeeditor.resources.R
-import com.simple.codeeditor.ui.screens.file.FileExplorerViewModel
+import com.simple.codeeditor.feature.filemanager.FileExplorerViewModel
 import com.simple.codeeditor.utils.showShortToast
 import java.io.File
 

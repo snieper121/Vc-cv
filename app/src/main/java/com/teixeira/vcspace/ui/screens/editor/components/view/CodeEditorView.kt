@@ -39,13 +39,6 @@ import com.simple.codeeditor.preferences.editorWordWrap
 import com.simple.codeeditor.providers.GrammarProvider
 import com.simple.codeeditor.resources.R
 import com.simple.codeeditor.utils.cancelIfActive
-import io.github.rosemoe.sora.lang.EmptyLanguage
-import io.github.rosemoe.sora.lang.Language
-import io.github.rosemoe.sora.langs.textmate.TextMateColorScheme
-import io.github.rosemoe.sora.langs.textmate.registry.GrammarRegistry
-import io.github.rosemoe.sora.langs.textmate.registry.ThemeRegistry
-import io.github.rosemoe.sora.text.LineSeparator
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

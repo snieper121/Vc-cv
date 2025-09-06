@@ -42,21 +42,13 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import coil3.compose.AsyncImage
-import com.simple.codeeditor.activities.AboutActivity
-import com.simple.codeeditor.activities.PluginsActivity
 import com.simple.codeeditor.app.BaseApplication
 import com.simple.codeeditor.app.strings
 import com.simple.codeeditor.extensions.isNotNull
 import com.simple.codeeditor.extensions.isNull
 import com.simple.codeeditor.extensions.open
-import com.simple.codeeditor.github.User
-import com.simple.codeeditor.github.auth.Api
 import com.simple.codeeditor.resources.R
 import com.simple.codeeditor.ui.navigateSingleTop
-import com.simple.codeeditor.ui.screens.SettingScreens
-import me.zhanghai.compose.preference.ProvidePreferenceLocals
-import me.zhanghai.compose.preference.preference
-import me.zhanghai.compose.preference.preferenceCategory
 
 @Composable
 fun SettingsScreen(modifier: Modifier = Modifier) {

@@ -10,8 +10,6 @@ import android.widget.LinearLayout
 import androidx.appcompat.widget.PopupMenu
 import com.simple.codeeditor.editor.databinding.LayoutSearcherBinding
 import com.simple.codeeditor.resources.R
-import io.github.rosemoe.sora.widget.EditorSearcher
-import io.github.rosemoe.sora.widget.EditorSearcher.SearchOptions
 
 class SearcherLayout @JvmOverloads constructor(
     context: Context,

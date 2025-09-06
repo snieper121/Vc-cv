@@ -28,7 +28,6 @@ import com.simple.codeeditor.file.File
 import com.simple.codeeditor.resources.R
 import com.simple.codeeditor.utils.launchWithProgressDialog
 import com.simple.codeeditor.utils.showShortToast
-import com.vcspace.plugins.event.FileDeleteEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.greenrobot.eventbus.EventBus

@@ -66,8 +66,6 @@ import com.blankj.utilcode.util.UriUtils
 import com.hzy.libp7zip.P7ZipApi
 import com.simple.codeeditor.activities.Editor.LocalCommandPaletteManager
 import com.simple.codeeditor.activities.Editor.LocalEditorDrawerState
-import com.simple.codeeditor.activities.MarkdownPreviewActivity
-import com.simple.codeeditor.activities.TerminalActivity
 import com.simple.codeeditor.app.strings
 import com.simple.codeeditor.compose.LocalMenuManager
 import com.simple.codeeditor.core.EventManager
@@ -86,12 +84,6 @@ import com.simple.codeeditor.ui.screens.editor.EditorViewModel
 import com.simple.codeeditor.ui.screens.editor.components.view.CodeEditorView
 import com.simple.codeeditor.utils.isFileRunnable
 import com.simple.codeeditor.utils.launchWithProgressDialog
-import com.simple.codeeditor.webserver.LocalHttpServer
-import com.vcspace.plugins.editor.Position
-import com.vcspace.plugins.event.CursorChangedEvent
-import com.vcspace.plugins.event.TextChangeEvent
-import io.github.rosemoe.sora.event.ContentChangeEvent
-import io.github.rosemoe.sora.event.KeyBindingEvent
 import kiwi.orbit.compose.ui.controls.Icon
 import kiwi.orbit.compose.ui.controls.IconButton
 import kiwi.orbit.compose.ui.controls.Text

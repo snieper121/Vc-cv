@@ -94,12 +94,6 @@ import com.simple.codeeditor.core.settings.Settings.EditorTabs.rememberAutoSave
 import com.simple.codeeditor.resources.R
 import com.simple.codeeditor.utils.runOnUiThread
 import kotlinx.coroutines.launch
-import me.zhanghai.compose.preference.listPreference
-import me.zhanghai.compose.preference.preference
-import me.zhanghai.compose.preference.preferenceCategory
-import me.zhanghai.compose.preference.sliderPreference
-import me.zhanghai.compose.preference.switchPreference
-import me.zhanghai.compose.preference.textFieldPreference
 import java.io.File
 import kotlin.concurrent.thread
 

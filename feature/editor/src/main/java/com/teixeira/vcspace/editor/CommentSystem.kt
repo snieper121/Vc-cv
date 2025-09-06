@@ -15,8 +15,6 @@
 
 package com.simple.codeeditor.editor
 
-import io.github.rosemoe.sora.text.Content
-import io.github.rosemoe.sora.text.batchEdit
 import org.eclipse.tm4e.languageconfiguration.internal.model.CommentRule
 
 fun addSingleComment(commentRule: CommentRule?, text: Content) {

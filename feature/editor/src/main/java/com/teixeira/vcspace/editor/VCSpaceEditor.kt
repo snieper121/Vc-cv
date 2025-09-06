@@ -21,13 +21,8 @@ import android.util.AttributeSet
 import android.view.inputmethod.EditorInfo
 import com.simple.codeeditor.editor.completion.CompletionListAdapter
 import com.simple.codeeditor.editor.completion.CustomCompletionLayout
-import com.simple.codeeditor.editor.listener.OnExplainCodeListener
 import com.simple.codeeditor.editor.listener.OnImportComponentListener
 import com.simple.codeeditor.file.File
-import io.github.rosemoe.sora.langs.textmate.TextMateLanguage
-import io.github.rosemoe.sora.widget.CodeEditor
-import io.github.rosemoe.sora.widget.component.EditorAutoCompletion
-import io.github.rosemoe.sora.widget.component.EditorTextActionWindow
 import org.eclipse.tm4e.languageconfiguration.internal.model.CommentRule
 
 class VCSpaceEditor @JvmOverloads constructor(

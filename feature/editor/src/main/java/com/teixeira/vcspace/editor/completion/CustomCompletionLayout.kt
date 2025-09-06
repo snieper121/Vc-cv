@@ -18,8 +18,6 @@ package com.simple.codeeditor.editor.completion
 import android.graphics.drawable.GradientDrawable
 import android.view.ViewGroup
 import com.simple.codeeditor.utils.getAttrColor
-import io.github.rosemoe.sora.widget.component.DefaultCompletionLayout
-import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 
 class CustomCompletionLayout : DefaultCompletionLayout() {
     override fun onApplyColorScheme(colorScheme: EditorColorScheme) {

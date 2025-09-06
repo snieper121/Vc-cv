@@ -16,19 +16,6 @@ package com.simple.codeeditor.editor.language.textmate
 
 import android.os.Bundle
 import androidx.annotation.WorkerThread
-import io.github.rosemoe.sora.lang.EmptyLanguage
-import io.github.rosemoe.sora.lang.analysis.AnalyzeManager
-import io.github.rosemoe.sora.lang.completion.CompletionHelper
-import io.github.rosemoe.sora.lang.completion.CompletionPublisher
-import io.github.rosemoe.sora.lang.completion.IdentifierAutoComplete
-import io.github.rosemoe.sora.langs.textmate.registry.GrammarRegistry
-import io.github.rosemoe.sora.langs.textmate.registry.ThemeRegistry
-import io.github.rosemoe.sora.langs.textmate.registry.model.DefaultGrammarDefinition
-import io.github.rosemoe.sora.langs.textmate.registry.model.GrammarDefinition
-import io.github.rosemoe.sora.langs.textmate.utils.StringUtils
-import io.github.rosemoe.sora.text.CharPosition
-import io.github.rosemoe.sora.text.ContentReference
-import io.github.rosemoe.sora.util.MyCharacter
 import kotlinx.coroutines.runBlocking
 import org.eclipse.tm4e.core.grammar.IGrammar
 import org.eclipse.tm4e.core.registry.IGrammarSource

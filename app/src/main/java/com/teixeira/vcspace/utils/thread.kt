@@ -20,7 +20,6 @@ import android.os.Looper
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import okhttp3.internal.notify
-import okhttp3.internal.wait
 
 fun <R> runOnUiThread(block: () -> R): R {
     if (Looper.myLooper() == Looper.getMainLooper()) {

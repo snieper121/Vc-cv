@@ -15,8 +15,6 @@
 
 package com.simple.codeeditor.editor.language.java
 
-import io.github.rosemoe.sora.util.MyCharacter
-import io.github.rosemoe.sora.util.TrieTree
 
 /**
  * @author Rose

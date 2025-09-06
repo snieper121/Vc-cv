@@ -15,12 +15,6 @@
 
 package com.simple.codeeditor.editor.language.java
 
-import io.github.rosemoe.sora.lang.QuickQuoteHandler
-import io.github.rosemoe.sora.lang.QuickQuoteHandler.HandleResult
-import io.github.rosemoe.sora.lang.styling.Styles
-import io.github.rosemoe.sora.lang.styling.StylesUtils.checkNoCompletion
-import io.github.rosemoe.sora.text.Content
-import io.github.rosemoe.sora.text.TextRange
 
 class JavaQuoteHandler : QuickQuoteHandler {
     override fun onHandleTyping(

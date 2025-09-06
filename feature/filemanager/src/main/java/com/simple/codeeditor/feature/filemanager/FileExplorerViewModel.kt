@@ -24,7 +24,6 @@ import com.simple.codeeditor.feature.filemanager.filetree.createFileTreeFromPath
 import com.teixeira.vcspace.events.OnOpenFolderEvent
 import com.teixeira.vcspace.events.OnRefreshFolderEvent
 import com.teixeira.vcspace.file.File
-import com.teixeira.vcspace.git.GitManager
 import com.teixeira.vcspace.preferences.defaultPrefs
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

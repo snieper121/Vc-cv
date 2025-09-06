@@ -55,7 +55,6 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.res.ResourcesCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.google.ai.client.generativeai.type.GenerateContentResponse
 import com.itsvks.monaco.MonacoEditor
 import com.itsvks.monaco.MonacoLanguage
 import com.itsvks.monaco.MonacoTheme
@@ -74,7 +73,6 @@ import com.simple.codeeditor.activities.Editor.LocalEditorSnackbarHostState
 import com.simple.codeeditor.compose.ui.EditorTab
 import com.simple.codeeditor.compose.ui.dialog.ConfirmDialog
 import com.simple.codeeditor.core.EventManager
-import com.simple.codeeditor.core.ai.Gemini
 import com.simple.codeeditor.core.settings.Settings.Editor.rememberColorScheme
 import com.simple.codeeditor.core.settings.Settings.Editor.rememberCurrentEditor
 import com.simple.codeeditor.core.settings.Settings.Editor.rememberDeleteIndentOnBackspace
@@ -109,7 +107,6 @@ import com.simple.codeeditor.editor.TextActionsWindow
 import com.simple.codeeditor.editor.VCSpaceEditor
 import com.simple.codeeditor.editor.addBlockComment
 import com.simple.codeeditor.editor.addSingleComment
-import com.simple.codeeditor.editor.listener.OnExplainCodeListener
 import com.simple.codeeditor.editor.listener.OnImportComponentListener
 import com.simple.codeeditor.editor.textaction.EditorTextActionItem
 import com.simple.codeeditor.editor.textaction.actionItems
@@ -119,18 +116,12 @@ import com.simple.codeeditor.file.extension
 import com.simple.codeeditor.keyboard.CommandPaletteManager
 import com.simple.codeeditor.keyboard.createKeyEvent
 import com.simple.codeeditor.keyboard.model.toShortcut
-import com.simple.codeeditor.plugins.DialogManager
 import com.simple.codeeditor.resources.R
 import com.simple.codeeditor.ui.LocalToastHostState
 import com.simple.codeeditor.ui.components.keyboard.CommandPalette
-import com.simple.codeeditor.ui.screens.editor.ai.CodeExplanationSheet
-import com.simple.codeeditor.ui.screens.editor.ai.ImportComponentsSheet
 import com.simple.codeeditor.ui.screens.editor.components.Symbols
 import com.simple.codeeditor.ui.screens.editor.components.view.CodeEditorView
 import com.simple.codeeditor.utils.launchWithProgressDialog
-import com.vcspace.plugins.event.KeyPressEvent
-import io.github.rosemoe.sora.langs.textmate.TextMateLanguage
-import io.github.rosemoe.sora.langs.textmate.registry.ThemeRegistry
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

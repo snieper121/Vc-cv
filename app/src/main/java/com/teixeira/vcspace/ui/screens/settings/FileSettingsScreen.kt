@@ -35,8 +35,6 @@ import androidx.compose.ui.unit.dp
 import com.simple.codeeditor.core.settings.Settings.File.rememberLastOpenedFile
 import com.simple.codeeditor.core.settings.Settings.File.rememberShowHiddenFiles
 import com.simple.codeeditor.resources.R
-import me.zhanghai.compose.preference.preferenceCategory
-import me.zhanghai.compose.preference.switchPreference
 
 @Composable
 fun FileSettingsScreen(
