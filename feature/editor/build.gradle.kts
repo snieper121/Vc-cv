@@ -25,7 +25,7 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.material3)
 
-    // Выбираем Sora Editor + TextMate вместо Monaco
+    // Выбираем Sora Editor + TextMate вместо Sora
     implementation(libs.common.editor)
     implementation(libs.common.editor.textmate)
 }
