@@ -36,6 +36,7 @@ import com.simple.codeeditor.activities.Editor.LocalEditorDrawerNavController
 import com.simple.codeeditor.activities.Editor.LocalEditorDrawerState
 import com.simple.codeeditor.app.strings
 import com.simple.codeeditor.feature.filemanager.filetree.FileTreeView
+import com.simple.codeeditor.feature.filemanager.FileExplorerViewModel
 import com.simple.codeeditor.core.components.editor.FileOptionItem
 import com.simple.codeeditor.core.components.editor.FileOptionsSheet
 import com.simple.codeeditor.core.components.editor.NavigationSpace
@@ -58,7 +59,6 @@ import org.greenrobot.eventbus.EventBus
 fun EditorDrawerSheet(
     fileExplorerViewModel: FileExplorerViewModel,
     editorViewModel: EditorViewModel,
-    gitViewModel: GitViewModel = viewModel()
 ) {
     val context = LocalContext.current
     val drawerState = LocalEditorDrawerState.current
@@ -170,7 +170,6 @@ fun EditorDrawerSheet(
 
                                     99 -> {
                                         fileExplorerViewModel.closeFolder()
-                                        gitViewModel.close()
                                     }
                                 }
                             }
