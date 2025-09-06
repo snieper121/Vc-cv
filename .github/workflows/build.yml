@@ -1,0 +1,65 @@
+# Имя рабочего процесса, которое будет отображаться в GitHub
+name: Build Android App
+
+# Триггер для запуска: при любом push в ветку 'main'
+on:
+  push:
+    branches:
+      - main
+  # Также можно добавить запуск по Pull Request
+  # pull_request:
+  #   branches:
+  #     - main
+
+jobs:
+  build:
+    # Используем последнюю версию Ubuntu для сборки
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Клонирование вашего репозитория
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # 2. Установка нужной версии Java (JDK 17, как требуется для современных Android-сборок)
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+
+    # 3. Настройка кэша Gradle для ускорения будущих сборок
+    # Это самый важный шаг для оптимизации. Он сохраняет скачанные зависимости.
+    - name: Cache Gradle packages
+      uses: actions/cache@v4
+      with:
+        # Пути, которые нужно кэшировать
+        path: |
+          ~/.gradle/caches
+          ~/.gradle/wrapper
+        # Ключ кэша. Если файлы, определяющие зависимости, изменятся, кэш будет создан заново.
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/libs.versions.toml') }}
+        # Ключи для восстановления, если точного совпадения нет
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+
+    # 4. Предоставление прав на исполнение для Gradle Wrapper
+    # Это необходимо, чтобы runner мог запустить скрипт сборки.
+    - name: Grant execute permission for gradlew
+      run: chmod +x ./gradlew
+
+    # 5. Основной шаг: сборка проекта
+    # Команда ':app:assembleDebug' собирает отладочную версию только для модуля :app и его зависимостей.
+    # Это быстрее, чем полная сборка 'assemble'.
+    - name: Build with Gradle
+      run: ./gradlew :app:assembleDebug
+
+    # 6. Загрузка собранного APK-файла как артефакта
+    # Артефакт можно будет скачать со страницы сборки в GitHub Actions.
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        # Имя артефакта. Добавляем короткий хэш коммита, чтобы имя было уникальным.
+        name: Code-Editor-debug-${{ github.sha }}
+        # Путь к файлу, который нужно загрузить
+        path: app/build/outputs/apk/debug/app-debug.apk
