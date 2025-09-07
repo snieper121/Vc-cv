@@ -5,9 +5,9 @@ activity-compose = "1.9.2"
 gson = "2.11.0"
 utilcode = "1.31.1"
 documentfile = "1.0.1"
-# Sora Editor - используем актуальную версию
-common-editor = "0.22.2"
-common-editor-textmate = "0.22.2"
+# Rosemoe Editor - правильные артефакты
+rosemoe-editor = "0.23.7"
+rosemoe-textmate = "0.23.7"
 # AndroidX
 appcompat = "1.6.1"
 preference = "1.2.1"
@@ -28,6 +28,6 @@ androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "a
 androidx-preference = { module = "androidx.preference:preference", version.ref = "preference" }
 google-material = { module = "com.google.android.material:material", version.ref = "material" }
 
-# Sora Editor
-common-editor = { module = "io.github.rosemoe.sora-editor:editor", version.ref = "common-editor" }
-common-editor-textmate = { module = "io.github.rosemoe.sora-editor:language-textmate", version.ref = "common-editor-textmate" }
+# Rosemoe Editor - правильные артефакты
+rosemoe-editor = { module = "io.github.rosemoe:editor", version.ref = "rosemoe-editor" }
+rosemoe-textmate = { module = "io.github.rosemoe:language-textmate", version.ref = "rosemoe-textmate" }

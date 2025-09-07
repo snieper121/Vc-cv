@@ -35,9 +35,9 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.activity.compose)
 
-    // Sora Editor
-    implementation(libs.common.editor)
-    implementation(libs.common.editor.textmate)
+    // Rosemoe Editor
+    implementation(libs.rosemoe.editor)
+    implementation(libs.rosemoe.textmate))
     
     // Модули проекта
     implementation(project(":feature:editor"))

@@ -25,7 +25,7 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.material3)
 
-    // Sora Editor
-    implementation(libs.common.editor)
-    implementation(libs.common.editor.textmate)
+    // Rosemoe Editor
+    implementation(libs.rosemoe.editor)
+    implementation(libs.rosemoe.textmate)
 }
