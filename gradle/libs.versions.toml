@@ -5,9 +5,9 @@ activity-compose = "1.9.2"
 gson = "2.11.0"
 utilcode = "1.31.1"
 documentfile = "1.0.1"
-# Sora Editor
-common-editor = "0.22.0"
-common-editor-textmate = "0.22.0"
+# Sora Editor - используем актуальную версию
+common-editor = "0.22.2"
+common-editor-textmate = "0.22.2"
 # AndroidX
 appcompat = "1.6.1"
 preference = "1.2.1"
