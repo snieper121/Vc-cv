@@ -37,7 +37,7 @@ dependencies {
 
     // Rosemoe Editor
     implementation(libs.rosemoe.editor)
-    implementation(libs.rosemoe.textmate))
+    implementation(libs.rosemoe.textmate)
     
     // Модули проекта
     implementation(project(":feature:editor"))
