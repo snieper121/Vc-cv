@@ -6,12 +6,20 @@ gson = "2.11.0"
 utilcode = "1.31.1"
 documentfile = "1.0.1"
 # Rosemoe Editor - правильные артефакты
-rosemoe-editor = "0.23.7"
-rosemoe-textmate = "0.23.7"
+#rosemoe-editor = "0.23.7"
+#rosemoe-textmate = "0.23.7"
 # AndroidX
 appcompat = "1.6.1"
 preference = "1.2.1"
 material = "1.11.0"
+
+core-ktx = "1.13.1"
+annotation = "1.8.0"
+security-crypto = "1.1.0-alpha06"
+coroutines = "1.8.1"
+# Rosemoe Editor (совместимо с Kotlin 1.9.x)
+rosemoe-editor = "0.22.0"
+rosemoe-textmate = "0.22.0"
 
 [libraries]
 androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
@@ -22,6 +30,12 @@ androidx-activity-compose = { module = "androidx.activity:activity-compose", ver
 google-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 common-utilcode = { module = "com.blankj:utilcodex", version.ref = "utilcode" }
 androidx-documentfile = { module = "androidx.documentfile:documentfile", version.ref = "documentfile" }
+
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "security-crypto" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 
 # AndroidX
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }

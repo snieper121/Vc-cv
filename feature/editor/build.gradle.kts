@@ -37,4 +37,6 @@ dependencies {
     // Rosemoe Editor
     implementation(libs.rosemoe.editor)
     implementation(libs.rosemoe.textmate)
+    
+	implementation(libs.androidx.core.ktx)
 }

@@ -20,6 +20,10 @@ android {
         jvmTarget = "17"
     }
 
+    buildFeatures {
+		viewBinding = true
+	}
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -33,4 +37,13 @@ android {
 
 dependencies {
     implementation(libs.google.gson)
+    implementation(libs.androidx.core.ktx)
+	implementation(libs.androidx.appcompat)
+	implementation(libs.androidx.preference)
+	implementation(libs.google.material)
+	implementation(libs.androidx.security.crypto)
+	implementation(libs.kotlinx.coroutines.core)
+	implementation(libs.kotlinx.coroutines.android)
+	implementation(libs.common.utilcode)
+	implementation(libs.androidx.annotation)
 }
