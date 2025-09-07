@@ -19,4 +19,3 @@ android {
         jvmTarget = "17"
     }
 }
-}
