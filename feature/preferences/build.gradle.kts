@@ -1,10 +1,15 @@
 plugins {
     id("com.android.library")
-    id("kotlin-android")
+    kotlin("android")
 }
 
 android {
     namespace = "com.simple.codeeditor.preferences"
+    compileSdk = 34
+
+    defaultConfig {
+        minSdk = 26
+    }
 
     buildTypes {
         release {
@@ -16,7 +21,9 @@ android {
         }
     }
 
-    buildFeatures { viewBinding = true }
+    buildFeatures { 
+        viewBinding = true 
+    }
 }
 
 dependencies {
