@@ -30,7 +30,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.14"
+        kotlinCompilerExtensionVersion = "1.6.11"
     }
     
     buildTypes {
@@ -49,6 +49,9 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.activity.compose)
+    
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+	implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
 
     // Rosemoe Editor
     implementation(libs.rosemoe.editor)
