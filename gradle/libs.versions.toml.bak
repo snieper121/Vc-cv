@@ -18,8 +18,8 @@ annotation = "1.8.0"
 security-crypto = "1.1.0-alpha06"
 coroutines = "1.8.1"
 # Rosemoe Editor (совместимо с Kotlin 1.9.x)
-rosemoe-editor = "0.23.7"
-rosemoe-textmate = "0.23.7"
+rosemoe-editor = "0.22.0"
+rosemoe-textmate = "0.22.0"
 
 [libraries]
 androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
