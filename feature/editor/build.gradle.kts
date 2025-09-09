@@ -24,10 +24,6 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-    
-    sourceSets {
-		getByName("main").java.exclude("com/teixeira/vcspace/editor/**")
-	}
 }
 
 dependencies {

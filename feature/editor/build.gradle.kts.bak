@@ -26,12 +26,7 @@ android {
     }
     
     sourceSets {
-		getByName("main") {
-			java {
-				// исключаем устаревшие классы редактора
-				exclude("com/teixeira/vcspace/editor/**")
-			}
-		}
+		getByName("main").java.exclude("com/teixeira/vcspace/editor/**")
 	}
 }
 
