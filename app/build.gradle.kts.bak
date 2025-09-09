@@ -49,7 +49,7 @@ dependencies {
     
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
 	implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
-/*
+
     // Rosemoe Editor
     implementation(libs.rosemoe.editor)
     implementation(libs.rosemoe.textmate)
@@ -63,5 +63,5 @@ dependencies {
     
     // Утилиты
     implementation(libs.common.utilcode)
-    implementation(libs.google.gson)*/
+    implementation(libs.google.gson)
 }
