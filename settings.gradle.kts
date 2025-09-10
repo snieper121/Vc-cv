@@ -22,10 +22,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "SimpleCodeEditor"
 
-include(":app")
-/*    ":core:common",
-    ":core:resources",
-    ":feature:editor",
-    ":feature:preferences",
-    ":feature:filemanager"
-)*/
+include(
+    ":app",
+    ":core:resources"
+)
