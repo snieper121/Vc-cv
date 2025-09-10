@@ -49,6 +49,9 @@ dependencies {
     
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
 	implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
+	
+	// Модули проекта
+	implementation(project(":core:resources"))
 /*
     // Rosemoe Editor
     implementation(libs.rosemoe.editor)
@@ -59,7 +62,6 @@ dependencies {
     implementation(project(":feature:filemanager"))
     implementation(project(":feature:preferences"))
     implementation(project(":core:common"))
-    implementation(project(":core:resources"))
     
     // Утилиты
     implementation(libs.common.utilcode)
